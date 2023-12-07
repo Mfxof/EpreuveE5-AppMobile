@@ -43,12 +43,6 @@ project :
      physical_name : ..\EpreuveE5-AppMobile-old\FEN_Index_Client.wdw
      type : 2
    -
-     name : FEN_CB_SCAN
-     identifier : 0x4571a1e5045a0fcd
-     internal_properties : CAAAAAgAAADJRTHV0o+nSBA2pHBu99VNr8x6Ylpasx5KKLUXjpcH0WulCnXi2ltGNerULPTslATMVA==
-     physical_name : ..\EpreuveE5-AppMobile-old\FEN_CB_SCAN.wpw
-     type : 2
-   -
      name : FEN_FICHE_ITEM
      identifier : 0x4571a1e5046b100c
      internal_properties : CAAAAAgAAADJRTHV0o+nSBA2pHBu+MpsjYzUTIrcIWamNogER968JJx0+obi2ltGNerULPTslATMVA==
