@@ -1,0 +1,69 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Index
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Index
+ identifier : 0x2571a2f2177bad66
+ internal_properties : CAAAAAgAAACmwbqOTftxWNuhpF9O/OoJoEchRtD4tAXRw4dhmN4/P/WMCSAPfLn0COkxgC/FFZx8VB3mJjGiW2Us8F1h1vVMiH2dh/3u4OXOWeEGELTsPGjCxaD/KNs0ixdcUQlqi2+VcDdQl4n47VPDF5EI13zN7avC5OC3/2jIXQj9dRmsM4tFgITsQ7miZH1NV8Vk9eYsPpS7E5ocZ2ZEwJ9rlGPJhxWBJkLu70aonXZ7nZwoan6yGrOzaQqLfZdQL+NGBBYSoYFhUcyw9OOs7ziBKDMY4/CT9ZYw6NC0gANFptPpJ387eFBXCpD+SA18nE/8wx9ZAFhuEgFyh0hwtabcL0z02pWpXBhSEAHw4iQN6D2xmzkL+jJTFFyNnvjtCtnoBbAOuz5bb5E+631iDK2Vs9mjqm7ZvnKPKWnDnB/87nq6Y272tEib03iOuWR26EC63TQECfLElO1K/MHPIb44uu5AzSeudH+nhr1JymjQm+aHgPDmIBosjFBtwkNCRONJwbHI9Y5M3EhhiC2Z03cMVhBhaMQJnew32hRt5fI4UpRlp9lpuxQ2J2VkqxUjkqkngHnNSrIlI4RaVM+ZLewdCvvKfDfPKy3+LP64IMuBeM548uK/DO/bnq5CKWqgfRWszhN1VWLY9FNzcte7wvrFqunoVFswaHsI4Mzdnzgu9w7HpKOQ5I9R9s4yUcVywt/Dgi2etTbEUDNPKj1X+gjEDmYAYGdWxt4dXAon/r/resatcduYXhT03Owj5rFFTOgs9k1atKHJV6RzLHf2x81GvY2d81TyjPqGJ/3Fy5U6+J9K6WxHUL6gyjYR7XQVqHb9an6OcRtXA3IafrlqQfg05fFWKMiBarWWYPev4+vxjTQUqBLkOIF7v2NDa01n5JuGGsGpgSsM1IpEJy3hvArCCVCxoop2Zqo8GWWk6fMxM+DNjE3Bceet92/jTtucJaxH3liuf3Mjad0DFsm+s/1ghX+V8qCfP10FypKVOiRih2RfGs+q5+PYowrRW8Iwiv3uB5iUJYIvMZm2dMIvekyFEhnB+2+fNKmfU5WDhh9/lrh8m6hky1WCC9kWvas7d9SGjBIawToc+gYpMwEmMZ4TjgXJxZehGn15CeJ5Qx05F/K7W00kMejIQqVMmAFLu+Am6FHsmK5uVAp9SrSgL2fWX4NM80mF
+ properties :
+  width : 360
+  height : 569
+  heightMin : 650
+ controls : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2571a2f2177cad66
+  internal_properties : CAAAAAgAAACV8CHOAifraIRUXCY9Va4r9cEIG4AqWDu3UgUFe2tBv6LyrMmsfPrZozTnnK0TUKaLXExcjqckjvdui7n4YcRvqvqkSs+msejpU6ilAy7c14QmJi9fR39FPoByO/cvlI+uZCVdfRQ4HjbFgeDZpj8WVJRAMxv74BocgwW1KesgkVLSxVViWbl/m5zOlI75NxFGOIa0mYjCIhVtJv/Cr3Jyfv3XCNERB4sj+7x7fH6AjdHTFaIMSv4iqVfqx8vi8G76dr372T+6YWl25vkSaeGobHnYAv65q759jBzqir1xmixivtE0gxHuVbQzfgt/6qF/TtylZ+XKHRAmOYO5kgUF+FImP0EuL7JyR+U69ioeK0AhMaB6abmfGmNdEXEuiz3snHEOwybDgkIRmN/CGv0Wq/u15Qmc3+vka35mYI/qU0Zk49Bg24KBGGnHcJzdtvnWJFAAMA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAAHht6W6CUWQzfdHq1OPyt5wYdyoqOtyQDvf1RaeJ/IoRYVgon6N/KdIWx6dZFgCHXUOVtEAR7H6XOZ0x+r2VqhiPONZ8NrMVYZYlm5z73xZfWM7RWyDB/iTZ4jcUyfoM4Ke3OJjgdGO3QVlGQ4OZtZ/AHKIhYZI+MUElL2H5Z4ZgTJKa8T720MsqPXrWyJIHh4Q2Q7pQFdoqvpZESeyK69RUJDl3Xg4w9HesPi8ippIgwbe7LzZsSiQV6zhNpMW8P+Ft8rdQ5FAsDH7O8jOppsBbaC0fJnGcUv353gV0TEhU07gurUw3Jp80yjbVqnzxmpU3MiYWF1ZX40ftg/4AsnAtCLu9fgxz1igVOE4qJeRWBxhSgjP9cj4OysLlYuMWj2911TLRL1ZnykvveTdbrh6+rptRB/u7a3hKcDRs1W6zlcDoKHJhWCTvBjzsyy6gdjWHPzpfhjR2Y5OpmoFh0fcXCrv6MI91L4LkaxTAJo
+  options : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAADkxzJmP3r4baNW0vVDo6JH3sUp5UnxSs0pcJ/u4SoBLviU4GNHh13+Kx5tAz1bZLw8cBPV7kLpVrQLuOPqBTxiy2CwrmsMsIZDBkMEp+EL
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1571a2e600af81f1
+  internal_properties : CAAAAAgAAABAMjUMV7QDID/w1ht2apxNoqzgFZ9D9yeqqLyNaYCVgZd3uaiqlrTTnNJocLyQEIdHzw==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
