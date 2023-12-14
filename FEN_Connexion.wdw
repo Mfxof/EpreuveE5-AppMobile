@@ -42,14 +42,15 @@ window :
      type_code : 4
      p_codes :
       -
-        code : |1+
+        code : |1-
          // A faire : Connexion : Ajouter le code pour créer un compte
+         OuvreFenêtreMobile(FEN_APropos)
         type : 18
       -
         type : 161
         enabled : false
   -
-    name : BTN_SE_CONNECTER_AVEC_FACEBOOK
+    name : BTN_SE_CONNECTER
     identifier : 0x2571a2c316f8f8ad
     internal_properties : CAAAAAgAAABJfuPr4M23rkwKOTSuRBVw4yamb1EtMBgHX6jYXw+ue8keGhAwqq6UGwhAgzYaIO6lFj5yl1CSbhkw8DMksGqpyQ7CyMTFMhScblkAYJ8rHeamEyHkydbxM6HfhVIvblZbYfLE1luyS5usJhfeWH7/q3OBqWxa7rmv5D3x7UH54VueVc46Gjkr60Al6+vLxB5CsapkL6+e302+DdRVb9pzD7FMGxDSgAQ0cOrY4X6lMaGZertzmTl1V2FUjMf4tfzo9dUAsX4UmJ/9OsNsj8w1M0WGoFdT+CAmULYCcBWxk+rAFgjaxUj+Dgrapi/mZAvSiCTQOkyYHkmc+J+W//gBVuX2fKro0W1PRkVGlVpGcIISNi0MxQrbLMlkgNb/11O+W+Zq3BDAh2JUPHjPIoTSWh/Uv33E3EkfUaTOp8Pyng+Vk/Yf/sPmBOd9XSVcRSfTTZDXVen/FJAx4bUslfS+JGPQEPQRSdDINPMP4Uq6XcvzfakRVa13pwwiVSUik766ahJidUa7GvJIitmpXnF/WNzv/udAAY6752Doe+IrvNYypVl6286hadVlF5gr055LMpOHDYlHeANpzDWoHbT2rlbO48WbTQTFqAPN7453hA9sZKkWoNftadG2JSJndBkFtqwDISu1y7WGenGYDrY0vJcrLesRzRRV3IUTMpNQu3O/4nfuCcEYkSdkwDII0JbZAmoH2bxsGpVPhLrPmWemTX9o+2W4Rp5Jnz0jqybnYzh+zV/AUM/1gUhIJk4gwja/IFXnHll8Fx+vEKc5tDApznd2oNBvXerLmUXro1I7HKQDBparjv4UeWrL4l2opVVQsmSyaU3z5rXZ8aUzXWCyoYA4L63vrgGT4/HfISx5pNsZA2qWBmpzfpzL92uYGI7Z5FSVFjtjnsu5GAQembWc41p+3yDiPTt+eylTB24PnbofNjaIHsLiCTew8UmEgIkhkuuUuseq34y1o/ICVhoMf8880IYlgMkJcLvhqQuGvtBnOg4WeDp40V2ognBCHYS7yCZwtcDYhikbicgqFf5BXdYWuM6bBsbJ1K0DmvyvwCll8uoZ0RBGJtFYQmx1Z+y1qsXyZHtpSp4FLdI4Q39bmRMzlybm/k+0MNINNiTC4tBtRhNYwhrgrjIjpHqFh9BOpmvBolXVpduG/7LE8n3SKAqlN7OYeCYcWWoyIVSYayQEZoAHjnVTPmXUnn425E/w5WiJeVKOVR1cVoJZIDKpdYTi9vstVafQ+FYPkacgZXZpExjd0CZq85fRstAK5jizzRi0V8+9R1pTPwOQ4d9/xoAiEheLg39bZ7UpBT/H843PzsrNOU0vcaP1p0fhduTUfa16ADu7/95C+M4qGkYI8yYAUGeeGweE3ZV3Tq1lKfYhtsqQdc48i6M=
     properties :
@@ -62,16 +63,9 @@ window :
      type_code : 4
      p_codes :
       -
-        code : |1+
+        code : |1-
          // A faire : Connexion : Ajouter le code pour se connecter à Facebook
-         // consulter l'aide en ligne de la fonction FBOuvreSession() pour plus de détails
-         MaSession est une fbSession
-         MaSession..AppID = "1234567890123456"
-         MaSession..AppSecret = "badf00ddeadbeefbadc0deoff1ce8ecd"
-         MaSession..Permission = [fbInfoProfil, fbEmail]
-         SI FBOuvreSession(MaSession) ALORS
-         	ferme()
-         FIN
+         OuvreFenêtreMobile(FEN_Index)
         type : 18
       -
         type : 161
