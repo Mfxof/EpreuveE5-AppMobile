@@ -1,0 +1,331 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Mobile_Compteur_Jauge
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Mobile_Compteur_Jauge
+ identifier : 0x2dce6c3a226d9adc
+ internal_properties : CAAAAAgAAAACasRUsmxzXQ00/Oxlg1jMoyIJYqAhDaArgUpwHFJ9ONT3uyt+JefM/q8BOzJ1XjlfCk3p1ameeA78KtKV/JAJb6eE1un2XQ6B+EonVa+0c7gSoXzRQAcODq0xGJh5P6CtBM5X5+6ovxYlSKXOc/8sEeXJKGqP7bPToct4+yJXHvm0ZltKxZ+QuOHL7eAgihcL/lOL7IEVkv+hlznQy+qxuCYGNUghhD4QGneKn8hg+YIz7AAskPbJYpe+6W34A3OPsp2k5Ysq6C4m7VFQgxwxIZKlEdich4haTPWMYL/dPZBns+gVOuevyZ5fDEIubikrDk2Z2uoIPRk9/kljaYGMy5e924vu0JOVCyWdryT5HPr5OvQf4qUdT+WrQQF66MXjtwvmZn+MPDj9qL72uDo/eq9MHhPAMk9BfUyoaOij9jW21F56St+1nI7mKSZXidPq78VcOtXCAKHV25AjFKqiKXh94UXySoL5Ib7BIjyqdzDJe5MjphT56Y+Q0rWHu+d8gOJHLEZ0uuUpU5JeMZxe/1dz0P7s8uB+haajlPddEjxfIxKN8j2GeMiFB1XVTO0gqAHAuu6jTiKXF7069YFENDFJKNB4+ti3uHn7O3/75EEM1bO8BV9Ug3NDXNgAf3CfrDthTHRctigx9xLcsunW1dla5+yTAFYLbL7VGUo1zTFB4UOj7zcXPi1damXI6B3V1hoxLHv0KWEfzrxvMZn0x838J8A/XyMZ6eJ1l4R74LZwP0rEO7I+mCCbqm0imYCpx6EEGLfLrRhCijhj7p/11rliS4zCbgvoT99thxDV18HhFT8DgiNsx9/Y7hiWLv2HEn/IOLNDlANzH5AEacn7WFqHqk8o9ZSymon3pxJxPC7EBOR8DRjVO7PsNrLeYVTB0mzkEgy/8WF4DpJPdJI7eDBN0Q27rFWjcCzdrmBcNEnf0FM2kFklcQAaFcpsdI51lllh8kJWC/1oYRq1kTbcLueSVtCe/swOtc/Z+IKZBNjmgkjwag2a2cU1/bajvx/3+RDa7pleFz/+bD/81Aizn/S5g8YkVnUo7b5Z5R/T4Z67RLAD+7h0TN2r4j/+ag5DTWsaf3Yi621ldu0AjqOfC8o+4/tQaDl3nxhP+VoM/ZjyDBrsdoXLwNrviHDE85Q5nhu1gF7j0U6vdYjN3TZCW1AVIVKniAz9jjUQci5GSwpJhlSmLpo3xzuU9vzUfSeIyKgDhhBFtfwTsv5lF5utSNagwjQJ5v2/SAeAk1J6EEUioRmEwB08TzhBlDpN+vhc8V5y8Q1j9sMKaS9lr+yvBnMnEtcdlCKUHd+p+Ai78zEXn9eW7HJCPVuNkHLcbiHIeLoUXioKqjoGXHoJjj4lOIsMo7Mq8pmPGhNNiQ==
+ properties :
+  width : 250
+  height : 250
+ controls :
+  -
+    name : FI_Mobile_Compteur_Jauge
+    identifier : 0x2dce6c3a226e9adc
+    internal_properties : CAAAAAgAAAB6Bnsz2DwU62l5vc0Rg3/NIUKZ0Q93fAuyKLPHkhAo/MCXOqhSesrjtPhm8ZLKlLzEHoZHQwrqckM1h0mfsjTEC5ZYA7IREV1oH5mcZrWBdj2+FSMxxItBsbaaBbJEG9XE8IR6YGzVh2sdzev+fpqTGtKqPqNbZXXmOesjMvjGUlhnY3FYHU/tNxf6aqs1fzdpD6y29NUSMxX5HaAT/eqrprPbXlG0lG370trMXM1nUGKaS0sPLaeGVssBcmMtyUeQ8akw3+RAqh0UBqpStp29Up6avii3JopDoUXaO8xbxK6sOdSXhG5nYXsKlG90TZJ65O1dzLe7/Cejka+WQs/CMy3ImyS8YtugWyPfiLKpj3NVheWSXLLIGb4TXNvR3OcjFsN+JHt5wXmyInu0o9A4uVW6BGFRQShpDGQl4/IVsm2Efp4q1GSgaQM4N8mnznZ+amdwO/hCt/0BEcs8JiAeeVPWQgo+zft/yGseI97LVNQa5z2PqeZaiLKtBplA28AWPkKu5EdJx0bIvf+LtVjzoSwi+/pIAd0bVpK3d79p6ZUpxAKcRiRQhTBBkXCenqTwLD6eI++f1mXJNv4V8PEWsIijqDbqrzG1CJ8vJOpSR0W0yOMTeLEYjYX+P8hClxdLTW/ySbu/WH8Z1tvPFGGjTdjxTazc/ApUcyOaYu8fHHOFfbhul9Rowl9PMBxArOcx+HxJqYLR3iaSESckPqx3rixzulW70RUBTK+srV3IRGcQIsWQW6MMYHH+9Fs6eXQri68jgx1gRgnNfCss4CDRZVdYHbvtugVJY+g0Q9Zkg6peU4sVJfRtcBLjXyF9kPNmylb+WizS8Sv7UJNdolg14RvlUlDFJ6YdNCZOc4fTHF3p2tHn+lSOvLq2zYVNuv40Ng7Q4xNApLYaF9k9i4CRB1t9g6EqVmYmrxk7Nmu/0Fgk1M6wftMoaQODNDEkKoTInWS6Nh18akPjpSrnLzddD5dPjPf1vRr4gSq9mH3YQ35G63LOCj4kn9rgoCZvhQ==
+    properties :
+     width : 250
+     height : 250
+    controls :
+     -
+       name : IMG_Dessin
+       identifier : 0x2dce6cb82d3d8622
+       internal_properties : CAAAAAgAAAAFa092SDOwPj90BcGYB/GGDDtaQl0IpBrgm2yOioraIWJojz84Z22BsPMco1sfmUSdsfypWc/MqARxtO4XZqwnNSlwd02dZnG//uwLMHe8jtPGp2Pqw/pUVKcpMU0tao+eXVGqGTMrM2xN07aC9UPxLPqQjuUCcLcGXsVYvbHAfmSs4p7UuHTtoPs8xtzu9YB4UMLMJABjla0046AtleZon/DNcQlopc8BoOR4a3ARsEd82LxXG0UsKeSgYreHk7wGCslAjT811n5PCYJtjtMP2C223TJ9iwaEx3kCSQJV2no1P+dBjjantntSOGCSXh2UdK1bxGLGY89x7lnnIU+p5aIKE6eABmXGvxsIPGAT3Kk6i6uEGin1iaknoMxqVAA0U1iF6ByPSEIPB9ZhH9N8mP1LJGNumHBkgZA8hIunQfTudkMzQZKZxEzWwnI8QUwA/UBBgOlWQo8hfrpP7B93AuvpTyj3dEja5PgfQ2SJ2FtRk3OgpvfjxTPm1/iRI8lura9i5GLn7epP4Pa7R+bdbhuhB6bQuKXc/LvI/vKmokJJvIDtENH9ATLD8Rl/VNRHhXesoWiAtUQD89QzTFwMyKb2Sqm1DDLd8ouBcXb9exsV+vQl6agvVjjwC58dH1g/OqtpQxQJEouewUWgW/D/jnc43OEblcn1S6qG6GHy5s5sTvg3+Y/RXq0J/br8/H7ynr7y7yhjq5deYaXmHnExIFJtBZzIiBN+QtTyn0neAWg7rmVS+JcybjGDSQ0K6P+qNelKK1n8K4cuPdfYcstU2EMCks/HdJ+aP2obU0nnbrpZrvZDmmxA4MFo39XIbEEQ4yGWRzHCN5RUatlERJlFQuscUU/8h9N6jT02rSE5g6WWLB5Pxihy+YrPdlPFv9Dg4+fsI0KIVWZkETYWhiYs91m9ExSPJPSlPM6t4V9DkOFpZXHe6ekQJugb+MUBTAkx3iFls0PlFWkXEw8240JLimsxfFnZUKabpycg0jqzZaJepcPcjHQviTorq8navk8pfsDiHhVcbEajQ7o0v2T9HIjgMGkoW/9a2QwtiXEhyRWp4QzSIpZHl1r69sfwix1uHZBog0rnYYTVuqajJKaIgmppDeuo8Ftu7cF5cougFRzDR++XlKEwrSraQ0qsyj0EF6mIRWjvwleS7aJ57IQzPmL6Z0geb/J2q+Rq/ZEvjhyijWxayZN6cJc3IRAYpZ9Km2OQerjRczjeU7p8R624LdlLRwLSdsgmulqz32HK56T+mDtucatKn5JdqS+fPbWVTB2s8om3ynA1YHZjjNAxpAemzlGOvTdj1H7sBbbSOL5w1JyRsVHkoVHG9SvWdD0xthk2ZlX+8gnEruLXkwG98Wyg4YwkLDKxUSt9gQjbQShF4tYGGkrHaK0TEIlg8rQoTXc51GgFJJquEig6f4abaP/9plaiZbfhuU4zYPPJH35+2N1CM1YdrK52a20n9nBiCwRu4vFEE73mLioAMyg8XUUpa1tAQTq55LXhX+VeVIdELkeLEIVQ+pWMKq2n4MF3zBn1gvhvanoHjkZ0jXzTJ6SHm4fUeEwHGfjS4IGrz8fn1W5M+0Ds3+lrvN2zRDDgBA==
+       properties :
+        width : 250
+        height : 250
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Total
+       identifier : 0x2dce6cb82d3e8622
+       internal_properties : CAAAAAgAAAAvZbgskv559H2tNm6OLpL8J2Na6xtY/mt+QSY23WSNipDdT1jkBl35IR4IUDuxpk7Lap/tF9UcyFi1wp8014ZcowNnioVO8LsAF2mYnV5g/FsHlb606/d7ZCP4399hn/eCcdS+CPn5Zj6z22cFzAnOkJj5bFeJHLGaKnAP1sxxjnkqROYd2vO51w6zO8I4FXaXZ+u4v3ROJrQ0ww9tq3yz1Ew1d0JmPV5ZZKHzBkEV2Cu9Agoq5Q4yLYXlFlN4IFOrNy2e6nlL13q4riZcI04Qkx7pqvqCl0TeUPRNDwJ8kRB3duov1x+G3x/mJ98FXTMqDWmXNyH66DDmHDL+dnCt3XywYVBnKn68O40bp0iT3TPmSwwjBIUqNPjOrt+FTGqj2/pIIA3Lt000L3kWSFYjFYb+yqrrN6t0koxd2H1qKoS6hrh0OQVs/7QunqbkYTnWiMIk+B+TwNwGXRuiQdsA1j+nBc3QJMbb947IjihE/WYu/A21wnYEEK7Ja0T54gcijUVWSjT1V1RJIjSCmVbV7FyOsk+uEZAk6gI20LDYgIHcP4jk1INcv/lD2oc+6yAq31ptyWjqZmjhzSkiBLFMF83eY4rc70n6r86p41gQml4bmDjw70gCP+70LarHBuiBbCfALwXNQynPz8V8ST3N0B14C/+nhMZaq84u/k2tLmRyARjffB3tjo4vE3+ibfObyKgLNmfRCITNp0yfqvoZ/OBy3qtj/OV8BjUj5NoXE22C0JAJBT9e3C9OSAjcmfudYnrwDbTu3Yb9jq7p1CmGYbAzTcDEomlXSZkqpAx9sKh4G3bLbsboiBj1qPLUEqQek0aD+03aGoBwqV2n6SjSwU7JxQGm5OZiDw0yYmDd8AYgovrVnXI4hOfbBYT/b7tJ+r7fYR00nmd0W7WP9wilCDvjJTCaBrtnfN3oMLzdOc/eaWMO50Del9PlZeanOzFOmOqRUN9lix/gnT3pVktY9ABCJI0TlA==
+       properties :
+        x : 34
+        y : 135
+        width : 182
+        height : 33
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Valeur
+       identifier : 0x2dce6cb82d3f8622
+       internal_properties : CAAAAAgAAAASUpW1Whc/IiF4NqE+/fpsUyqUkT7mCryWVU6XXJGnuPjlVf74EPa9d8WUg4g6RLSp2DOJtF7Y4vAD1BZpu79yWjEnYPduHzG8I9bi98UcXQGN+3SSH6Z3ejj9rH1vpq6mptQAabGMKTGVJ4IyvmiQ7QXd6YkS9GYgFTuYsp1Zal6etl39y3P6V03vBAwEE0EfE/aSTrSd6EAXnUItu8Qs+8i1PoS8ccz4OrEBgCSYOE/eP/tjXuFzEd2dSshzQaMyT+GrodLvZGqCsgPrGCiwMhwHhoKIQ75rRf3x9gpkL1/LjhX5l51DF9cl2Ls94uSFmTtPrCsNehswQxNTocWffTkHJNhstEQc+LU8g49pRskF/QmY4XRfRrCbo8Jplf+jhygx+lQgOifFe1o/2t++3NmBt8fp7Mhk3+gzoo3NIh8cVcMT2mkZgCs5xIAv+rmy2jG5/TV2pVeJfVQCgSROsSd+R3hoy0i88nbamHPy4eQj3Qq+C+WH+fstSe+xjjXq/oTZRqxnlNKmmt88tFZL4OrxtQdHJFn02ytOKKUFgkmfC8DHiUznvgDOVhFdNmI570oKQ5tN79k6hO8jkmFRa3SO9N+1MFJGZd7Wrn5UbkqGH5l21rC8+jUdRUOEV1nQcJVPoH8P2JqxF4iUSt2rSnM+CdJRDaSMgjc7h0V/bbY0c1IkYOWECq9QqidxvCK6kXp1en6C8cwChGH7Iq/OvOkjrW265XhAteozFf6JZh/qxeXI59v2FITtfsV+2ccSESpKksjwCR67t7oX9oaL1CWa+y+d3r0qlwkJYS5yBC41W17tDLv/0J7o71xN58/3OpCUeAIoaLKNbxl1/k4PBGB7DyII3YFshFA3YiVpRoPw+T6Lp0hiL4FXU1+uGMj5DpDQuHdgHo2hV+y509TYG2EIAAgLfnSMeOg2YUCqgj+RlnmCA4VbgZhsjQGj/McXDlvr2rcX2DhUC+aykzYsJzGMfjO/g7pyWRwyMe7KeN6sbrk6C/41FU9rXglB2mT1+wfg
+       properties :
+        x : 34
+        y : 72
+        width : 182
+        height : 56
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre(gnValeur est un entier = 0, gnValeurMaximale est un entier = 10 000)
+         
+         
+         CONSTANTE
+         	TYPE_ROND = 1
+         	TYPE_ANNEAU = 2
+         FIN
+         
+         // Angle de départ de la jauge
+         gnAngleDépart est un entier = 90 
+         // Type d'affichage (au choix TYPE_ANNEAU ou TYPE_ROND)
+         gnType est un entier = TYPE_ANNEAU
+         // Couleur de la jauge (si couleur unie)
+         gnCouleurJauge est un entier = RVB(41, 128, 185) 
+         // Couleur de la zone de décor (rond ou anneau selon le type)
+         gnCouleurDécor est un entier =  gnType=TYPE_ROND ? RVB(52, 73, 94) 	SINON  RVB(239, 246, 255) 
+         // Couleur du texte (rond ou anneau selon le type)
+         gnCouleurTexte est un entier =  gnType=TYPE_ROND ? RVB(226, 232, 233) SINON  LIB_Valeur..couleur
+         // Vrai pour afficher le texte au centre, Faux autrement
+         gbAvecTexte est un booléen = Vrai 
+         // Sens horaire ou non
+         gbSensHoraire est un booléen = Vrai
+         
+         
+         // Dessin initial à 0 (optionnel)
+         DessineJauge(gnValeur,gnValeurMaximale)
+         
+      -
+        code : |1+
+         
+         // Affectez la valeur que vous souhaitez directement au superchamp
+         // ex : Moimême = 7 567
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2dce6c22226a3cde
+  internal_properties : CAAAAAgAAAA7fAVPsewiV10ZkxYopT9qFC3c9CTfYuddJqDWnoBUbM+j2pSzpyOP/LempC4ON9Pg3XnPcuVo9BvfEbUf2wYPsKWvWgA0DdYhmnBbnMTcx5aU1c2HW1i6BawTGYdsOdcHGTfJvX+yJfzDxoZapRnPl0cFB2jWpYrS1b5eGSff1PpJtF0Ee2W2vALhFqXBwrY5ZSZVRcFxbvhuAf4E4lqcdqm0O8o0igpCvTp2NAly/7fUb6PaoF0fHPtHy1BcH9t8uu2q4kCKge82ab9lLTG6ql4lbZgr0dptFAHDEKALJMZW7hQ1yErEiqgEbSlBsnTHbdng5/CqFVNN0YniHJJ3sgvwbXGWJm0kFhgbRsNGw3yHCLMPV/Gq4xp/b5R5eN81ZF1/q/bGpzt9C0wLV7x+aDN6DjCFVtNaeuQeQ83nd1vBulJHO0EGZFFSzsm3hzDIsA3kCQ9z/2g2xVI6vwIKkZxJa+orZ2anbjTPbLU/8c/8UPhsdOPt4Nef/DR4HruVMrjgcBtAKyMJALt1npJ57S2xAhtRZzDR7yI15jrLJTlskgXYkfCTPI3cF2GWpSeb56BTk/5fQHWIKCl6xWIukLb0o/U6OsA1fQkiGcNiAkejyo754wENaJC3uuTof3NkQfvP3/S7bs7/2BsNYOBAD9ls2FOyDS4FHd5yp7nLAbckzNR2PhqKwb/plyx7lhmOtCV9XSEcNWm1vr4NeNkyN5XdFHmvTRpBMjo=
+  options : []
+ languages :
+  - fr-FR
+  - en-GB
+  - es-ES
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : _DessineJaugeAnneau
+     internal_properties : CAAAAAgAAAAx0xiSP1qABsNJOJP4BPPwcB9qrPvUTbI39Jc3TXahecFGiUSv3t9FDdM7sdlkCE4q4zRFVCffxwUfFJVLQH8o9ei6V3F2CxviqAE3U9JS/HEldXjt+Z2oavZ2qHIqXNECwTop13EmBw/bRpi+l955FHoc+1Tpx0T+MJ+4tR/yb3AtTEUrDJHll0stIiWvQKnjfRu6okqlmmEsOVEn1QCL+pakn6RuqbaFipCn49NtwimPX1T8fLi2RJcibR2jzAn7pFHfE+kVuPkyt3glgpQGbTyM9YhdqGDWIkLTX3KxxWE2ZLnDnt6FmJnvT6sowhuG5AoWii3z/fDJH5H5CMTRhOOnjsWnH/66kiX26ZqTpcu3CnOKUDEM3UfKqKwBdBsl8Ld9jqGurxWM7fY=
+     procedure_id : 2147774103992617028
+     type_code : 14
+     code : |1+
+      PROCÉDURE PRIVÉE _DessineJaugeAnneau(LOCAL nPourcent est un entier)
+      
+      // Variables de calcul du dessin
+      nDiametreCercle est un entier 
+      nCouleurJauge est un entier = gnCouleurJauge
+      MonImage est une Image
+      nX1, nX2, nY1, nY2 sont des entiers
+      
+      // Tient compte de l'échelle de dessin pour un dessin avec une meilleure définition
+      MonImageRef est Image = IMG_Dessin
+      
+      nFacteur est entier = MonImageRef..EchelleDessin
+      nLargeur est entier = IMG_Dessin..Largeur 
+      nHauteur est entier = IMG_Dessin..Hauteur 
+      
+      // Définit l'image
+      MonImage..Largeur = nLargeur*nFacteur
+      MonImage..Hauteur = nHauteur*nFacteur
+      MonImage..EchelleDessin = nFacteur
+      // Définit le centre
+      nCentreX est un entier = nLargeur/2
+      nCentreY est un entier = nHauteur/2
+      
+      // Début de dessin
+      dDébutDessin(MonImage)
+      // Utilise l'anti aliasing uniquement si utile
+      SI nFacteur <= 1 ALORS
+      	dChangeMode(dessinAntiAliasing)
+      FIN
+      
+      // Définit un diamètre initial
+      nDiametreCercle = MonImage..Largeur*0.9 
+      // Épaisseur du trait
+      nEpaisseur est un entier = MonImage..Largeur*10/200
+      
+      // Définit l'angle selon le pourcentage
+      nAngleFin est un entier = modulo((nPourcent * 360 / 100)+gnAngleDépart,360)
+      
+      
+      // Point 1 : origine
+      _PositionsSelonAngle(gnAngleDépart, nCentreX, nCentreY, nDiametreCercle, nX1, nY1)
+      // Point 2 : point de la jauge
+      _PositionsSelonAngle(nAngleFin, nCentreX, nCentreY, nDiametreCercle, nX2, nY2)
+      
+      // Dessine l'arc du "reste"
+      dArc((nCentreX - nDiametreCercle/2)/nFacteur, (nCentreY - nDiametreCercle/2)/nFacteur, (nCentreX + nDiametreCercle/2)/nFacteur, (nCentreY + nDiametreCercle/2)/nFacteur, nX2/nFacteur, nY2/nFacteur,nX1/nFacteur, nY1/nFacteur, gnCouleurDécor,nEpaisseur/nFacteur)
+      
+      ////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Affiche la portion de la jauge
+      SI nPourcent > 0 ALORS
+      	// Dessine l'arc de valeur
+      	dArc(((MonImage..Largeur-nDiametreCercle)/2)/nFacteur, ((MonImage..Largeur-nDiametreCercle)/2)/nFacteur, (MonImage..Hauteur-(MonImage..Largeur-nDiametreCercle)/2)/nFacteur, (MonImage..Largeur-(MonImage..Largeur-nDiametreCercle)/2)/nFacteur, nX1/nFacteur, nY1/nFacteur, nX2/nFacteur, nY2/nFacteur, nCouleurJauge,nEpaisseur/nFacteur)	
+      FIN
+      
+      // Sens horaire ou non
+      SI gbSensHoraire ALORS
+      	dSymétrieVerticale(MonImage)
+      FIN
+      
+      // Affiche l'image
+      IMG_Dessin = MonImage
+     type : 458752
+   -
+     name : _DessineJaugeRond
+     procedure_id : 2147774116877915148
+     type_code : 14
+     code : |1+
+      PROCÉDURE PRIVÉ _DessineJaugeRond(LOCAL nPourcent est un entier)
+      
+      // Variables de calcul du dessin
+      nDiametreCercle est un entier 
+      nCouleurJauge est un entier = gnCouleurJauge
+      nX1, nX2, nY1, nY2 sont des entiers
+      nDifférence est un entier 
+      MonImage est une Image
+      
+      // Tient compte de l'échelle de dessin pour un dessin avec une meilleure définition
+      MonImageRef est Image = IMG_Dessin
+      nFacteur est entier = MonImageRef..EchelleDessin
+      nLargeur est entier = IMG_Dessin..Largeur 
+      nHauteur est entier = IMG_Dessin..Hauteur 
+      
+      // Définit l'image
+      MonImage..Largeur = nLargeur*nFacteur
+      MonImage..Hauteur = nHauteur*nFacteur
+      MonImage..EchelleDessin = nFacteur
+      // Définit le centre
+      nCentreX est un entier = nLargeur/2
+      nCentreY est un entier = nHauteur/2
+      
+      // Début de dessin
+      dDébutDessin(MonImage)
+      // Utilise l'anti aliasing uniquement si utile
+      SI nFacteur <= 1 ALORS
+      	dChangeMode(dessinAntiAliasing)
+      FIN
+      
+      // Définit un diamètre initial
+      nDiametreCercle = MonImage..Largeur * 95/100
+      // Différence
+      nDifférence = MonImage..Largeur - nDiametreCercle
+      
+      ////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Affiche la portion
+      SI nPourcent > 0 ALORS
+      	
+      	// Définit l'angle selon le pourcentage
+      	nAngleDébut est un entier = gnAngleDépart
+      	nAngleFin est un entier = modulo((nPourcent * 360 / 100)+gnAngleDépart,360)
+      	
+      	_PositionsSelonAngle(gnAngleDépart, nCentreX, nCentreY, nDiametreCercle, nX1, nY1)
+      	_PositionsSelonAngle(nAngleFin, nCentreX, nCentreY, nDiametreCercle, nX2, nY2)
+      	
+      	// Dessine la portion
+      	dPortion(nDifférence/nFacteur, nDifférence/nFacteur, (MonImage..Hauteur-nDifférence)/nFacteur, (MonImage..Largeur-nDifférence)/nFacteur, nX1/nFacteur, nY1/nFacteur, nX2/nFacteur, nY2/nFacteur, nCouleurJauge, nCouleurJauge)
+      	
+      FIN
+      
+      ////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Affiche le rond plein (devant)
+      nDiametreCercle = MonImage..Largeur * 50/100
+      dCercle((nCentreX - nDiametreCercle/2)/nFacteur, (nCentreY - nDiametreCercle/2)/nFacteur, (nCentreX + nDiametreCercle/2)/nFacteur, (nCentreY + nDiametreCercle/2)/nFacteur, gnCouleurDécor)
+      
+      // Sens horaire
+      SI gbSensHoraire ALORS
+      	dSymétrieVerticale(MonImage)
+      FIN
+      
+      // Affiche l'image dans le champ
+      IMG_Dessin = MonImage
+      
+     type : 458752
+   -
+     name : _PositionsSelonAngle
+     procedure_id : 2147774121172948933
+     type_code : 14
+     code : |1+
+      // Résumé : Récupère la position X et Y d'un point du cercle selon l'angle
+      // Syntaxe :
+      //_PositionsSelonAngle (<nAngle> est entier, <nCentreX> est entier, <nCentreY> est entier, <nDiametreCercle> est entier, <nX> est entier, <nY> est entier)
+      //
+      // Paramètres :
+      //	nAngle (entier) : Angle
+      //	nCentreX (entier) : X du centre
+      //	nCentreY (entier) : Y du centre
+      //	nDiametreCercle (entier) : Diamètre
+      //	nX (entier) : Position X déterminée
+      //	nY (entier) : Position Y déterminée
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE PRIVÉE _PositionsSelonAngle(LOCAL nAngle est un entier, nCentreX est un entier, nCentreY est un entier, nDiametreCercle est un entier, nX est un entier, nY est un entier)
+      
+      // Définit les coordonnées (X,Y) du point
+      nX = nCentreX + (nDiametreCercle/2) * Cos(nAngle)
+      nY = nCentreY + (nDiametreCercle/2) * -Sin(nAngle)
+     type : 458752
+   -
+     name : DessineJauge
+     procedure_id : 2147774125467982734
+     type_code : 14
+     code : |1+
+      PROCÉDURE DessineJauge(LOCAL nValeur est un entier, LOCAL nValeurMax est un entier)
+      
+      // La valeur courante doit être inférieure à la valeur max
+      nValeur = Min(nValeur, nValeurMax)
+      
+      SELON gnType
+      	CAS TYPE_ROND : _DessineJaugeRond(100*nValeur/nValeurMax)
+      	CAS TYPE_ANNEAU : _DessineJaugeAnneau(100*nValeur/nValeurMax)		
+      FIN
+      
+      // Affiche le nouveau dessin
+      IMG_Dessin..Visible=Vrai
+      
+      ////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Affiche le texte
+      SI gbAvecTexte ALORS
+      	
+      	// Applique la même police à un champ libellé de référence	
+      	LIB_Valeur = nValeur
+      	LIB_Total = nValeurMax
+      	LIB_Valeur..Visible = Vrai
+      	LIB_Total..Visible = Vrai
+      	LIB_Valeur..Couleur = gnCouleurTexte
+      	LIB_Total..Couleur = gnCouleurTexte
+      	
+      SINON
+      	LIB_Valeur..Visible = Faux
+      	LIB_Total..Visible = Faux
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1022baad09ae6266
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
