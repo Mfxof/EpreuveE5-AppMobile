@@ -44,7 +44,7 @@ window :
       -
         code : |1-
          // A faire : Connexion : Ajouter le code pour créer un compte
-         OuvreFenêtreMobile(FEN_APropos)
+         OuvreFenêtreMobile(FEN_APropos1)
         type : 18
       -
         type : 161
