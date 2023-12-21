@@ -86,7 +86,7 @@ window :
       -
         code : |1-
          // A faire : Connexion : Ajouter le code pour ouvrir la fenêtre de login
-         ferme()
+         OuvreFenêtreMobile(FEN_Support)
         type : 18
       -
         type : 161
