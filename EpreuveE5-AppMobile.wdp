@@ -67,10 +67,10 @@ project :
      physical_name : .\FEN_Support.wdw
      type : 2
    -
-     name : FEN_Connecter_vous
+     name : FEN_Connexion
      identifier : 0x4583fb914d2f6b5d
      internal_properties : CAAAAAgAAAA+JBYKuebO4etvYat+U+DUui1pmS0cqT220QVz+S7mOs4MDW7MefgXzHFrVd0T7+ErKw==
-     physical_name : .\FEN_Connecter_vous.wdw
+     physical_name : .\FEN_Connexion.wdw
      type : 2
    -
      name : FEN_Inscription
@@ -78,6 +78,18 @@ project :
      internal_properties : CAAAAAgAAAC5leElgv+3uADJAaclHjZxDW5YGDyv5/RSOu4SEhODjWthjHbid98pZdrEPMQ8xDScpA==
      physical_name : .\FEN_Inscription.wdw
      type : 2
+   -
+     name : FI_Connexion
+     identifier : 0x4584128639e9197e
+     internal_properties : CAAAAAgAAAAR7Uldahcf0JiR49+5NJUk16Qi6sItzlxSmshKPtfHYasVS84ULelxvWJcpGxkHIx0/A==
+     physical_name : .\FI_Connexion.wdw
+     type : 8
+   -
+     name : FI_Inscription
+     identifier : 0x458413663e0d829a
+     internal_properties : CAAAAAgAAABi2FpOfSqCnacsfzaLnfUvxlsV1enciS2KlO8k0jNZr0X5oeErE3P8CD2nEZFPK51n7w==
+     physical_name : .\FI_Inscription.wdw
+     type : 8
   other_elements :
    -
      physical_name : .\accueil.png
