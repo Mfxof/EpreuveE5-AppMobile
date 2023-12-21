@@ -184,7 +184,12 @@ window :
     type : 95
     code_elements :
      type_code : 127
-     p_codes : []
+     p_codes :
+      -
+        code : |1-
+         
+         OuvreFenêtreMobile(FEN_Support)
+        type : 174
  actionbar :
   name : ACTB_ActionBar
   identifier : 0x256850332bb1f252
