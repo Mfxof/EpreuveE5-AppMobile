@@ -67,10 +67,10 @@ project :
      physical_name : .\FEN_Support.wdw
      type : 2
    -
-     name : FEN_Connecter_vous
+     name : FEN_Connexion
      identifier : 0x4583fb914d2f6b5d
      internal_properties : CAAAAAgAAAA+JBYKuebO4etvYat+U+DUui1pmS0cqT220QVz+S7mOs4MDW7MefgXzHFrVd0T7+ErKw==
-     physical_name : .\FEN_Connecter_vous.wdw
+     physical_name : .\FEN_Connexion.wdw
      type : 2
    -
      name : FEN_Inscription
