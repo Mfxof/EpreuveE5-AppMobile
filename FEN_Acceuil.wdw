@@ -44,7 +44,7 @@ window :
       -
         code : |1-
          // A faire : Connexion : Ajouter le code pour créer un compte
-         OuvreFenêtreMobile(FEN_Inscription)
+         OuvreFenêtreMobile(FI_Inscription)
         type : 18
       -
         type : 161
@@ -65,7 +65,7 @@ window :
       -
         code : |1-
          // A faire : Connexion : Ajouter le code pour se connecter à Facebook
-         OuvreFenêtreMobile(FEN_Connexion)
+         OuvreFenêtreMobile(FI_Connexion) //FEN_Connexion)
         type : 18
       -
         type : 161
