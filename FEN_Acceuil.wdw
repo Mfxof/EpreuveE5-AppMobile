@@ -65,7 +65,7 @@ window :
       -
         code : |1-
          // A faire : Connexion : Ajouter le code pour se connecter à Facebook
-         OuvreFenêtreMobile(FEN_Connecter_vous)
+         OuvreFenêtreMobile(FEN_Connexion)
         type : 18
       -
         type : 161
