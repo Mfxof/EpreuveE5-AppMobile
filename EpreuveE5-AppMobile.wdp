@@ -54,6 +54,12 @@ project :
      internal_properties : CAAAAAgAAAD/W9fL+KUNHirFX+Fr5NKwhcRsRIKGBf2KtBr6E/KYSPgIWq7+C+vJi7Aqlh7SriLqag==
      physical_name : .\FEN_APROPOS.wpw
      type : 2
+   -
+     name : FEN_Support
+     identifier : 0x4583f7f74d1ed89d
+     internal_properties : CAAAAAgAAABzz6v/TDlxqrZ6BBCNMY6pR9BiAqYYd7WO+12TzCntw3m34Agbav0u10y2AoJ+em5W3g==
+     physical_name : .\FEN_Support.wdw
+     type : 2
   other_elements : []
   analysis : .\EpreuveE5-AppMobile.ana\EpreuveE5-AppMobile.wda
   net_assemblies : []
@@ -68,6 +74,7 @@ project :
  url_rewriting :
   internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
  code_elements :
+  internal_properties : CAAAAAgAAAC0g5wx2kiqxAceZM6rB1uHgj+x/jv2TtgJAU969SOprBXdBl6YwEWHl2/OVwsaIIVCW2Xp96akzpuqziuqHCrVVkV7PRn0Qys+YIysTs1+kNIcIjJge6f5mFmmQpmgQJnJONVOjleep7Rz2FmHzNSffaYVLEKBv1TfslqfKrvp3PPSRy8L
   type_code : 0
   p_codes :
    -
