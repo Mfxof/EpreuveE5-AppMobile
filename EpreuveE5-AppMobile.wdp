@@ -66,6 +66,12 @@ project :
      internal_properties : CAAAAAgAAAB82lRAfySMn1VdV0dc4EfSZHcDa12HLaCK3AbsZYAU5BjWh9FMOc4B+i+pF59RKZ9p6Q==
      physical_name : .\FEN_Support.wdw
      type : 2
+   -
+     name : FEN_Connecter_vous
+     identifier : 0x4583fb914d2f6b5d
+     internal_properties : CAAAAAgAAAA+JBYKuebO4etvYat+U+DUui1pmS0cqT220QVz+S7mOs4MDW7MefgXzHFrVd0T7+ErKw==
+     physical_name : .\FEN_Connecter_vous.wdw
+     type : 2
   other_elements :
    -
      physical_name : .\accueil.png
