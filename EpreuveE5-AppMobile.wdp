@@ -60,6 +60,12 @@ project :
      internal_properties : CAAAAAgAAADWvD5iQT52ecO3lu+QZhLx3Kkb8zH91olTC3+jqm2vSbcbk5aV6Im/pJkD/YV7B/nDQw==
      physical_name : .\FEN_Paramètres.wdw
      type : 2
+   -
+     name : FEN_Support
+     identifier : 0x4583f7f74d1ed89d
+     internal_properties : CAAAAAgAAABzz6v/TDlxqrZ6BBCNMY6pR9BiAqYYd7WO+12TzCntw3m34Agbav0u10y2AoJ+em5W3g==
+     physical_name : .\FEN_Support.wdw
+     type : 2
   other_elements :
    -
      physical_name : .\accueil.png
