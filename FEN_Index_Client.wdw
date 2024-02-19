@@ -139,6 +139,7 @@ window :
         type : 14
       -
         code : |1-
+         
          OuvreFenêtreMobile(FEN_Support)
         type : 18
       -
