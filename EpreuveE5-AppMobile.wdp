@@ -96,6 +96,12 @@ project :
      internal_properties : CAAAAAgAAAAUcny4B3w0N43WHhkGB5Tc2q0ZiTPijgG8cRh/G+oqxjKYAY5YjS6C8ldBv0e5QbcBAQ==
      physical_name : .\FEN_Index_QR.wdw
      type : 2
+   -
+     name : FI_delet
+     identifier : 0x45d4c7032537e696
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2eP43/dek6mzzlM9PZGEp+dOh0pEskPJD/U5vbl9oFOYxHljXSXbpxnjYw==
+     physical_name : .\FI_delet.wdw
+     type : 8
   other_elements :
    -
      physical_name : .\accueil.png
