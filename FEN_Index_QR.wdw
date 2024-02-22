@@ -144,6 +144,12 @@ window :
          MonQRCode.TypeCodeBarres	= BC_QRCODE
          MonQRCode.Contenu			= "[5](http://www.pcsoft.fr)"
          CBA_ChampCB					= MonQRCode
+         SI CBA_ChampCB.Visible = Faux ALORS
+         	CBA_ChampCB.Visible = Vrai
+         SINON
+         	// Erreur lors de la génération du QR code
+         	// Afficher un message d'erreur
+         FIN
          
          
          
@@ -154,7 +160,7 @@ window :
   -
     name : CBA_ChampCB
     identifier : 0x25d4bf2227b16dab
-    internal_properties : CAAAAAgAAACChHVtD9XmHMEtX69L9yQF6HTqiMUYkmV5k7G0/JSINsCQkMp7QDk53OOTlhogD6p29F2fvsfqvNX6M3y+M0tHMf2rIYZ6oXEt4mTzexe86WJZBifXsaCgxiIhHry/rF2gBE02ymYKmseKd5FZlHxdW7xW2IYTCO7qi6BkoKLt/M/xQqfw+emKC6V5uKIiDqMtec2ZP9BFOW0ju1DjMnPa8IiE/WM8yGo9kSg/IGwU81uk660VZQNncUaO+2m53uIG9nx3TCEw/E838YQ1T5wKCyGcZd2+1hOBQZ11ed7I78NxbHOLPeRWVWVW0ZgG2cHr/OUF1W1SeEHG62TOFoV208CS4mQSGOgUEIQS9KB3edpa0aHZIlssskz1NoOC7CIyfio7rl1zT7/keAJIWe4Uq4Cm4klku4L2Jc1HljdWHtaGYFL8rbHD2fM0N2Cng7wZAFRObGq7VPCymJbmrew7GArN4VasSGFBfHHN2sk1DPOHDvKpS+6GNih57F/fNgkpza9kpDesMBvK8MB8b2tiIDKsZxuzTXCX6YAmSNoauPrJIh14ANgrqIIdSndOfrdrDF2xgQo5wsOyzxdOjSSNBf1YTjXUlzuENCRQ44ottLJ+R1ye9U4OIfPpT0gpla0H397UOc9PgFehMgWQT9U0fex/gn5MNF1agwYY9Xo9AjCWBBO4P9JB0S+WJ7w9vCc5TT0b/xlo0TGZsUdx94pJu7KnJoV96M3KZiyk6PMTuPqvbb/iMHBTfWciPYf0JRJ2MGNS5MDddiiSCRohxKLj5n+BZV4fxwm/5s0KFWM3jrJWVhHJoFMnnHQWIg53m66tAiM2YiBgeauPnVOMHxZcpEKwEMH6/kzXVv2fPmecrYp0RWk19M8MPghGEvUSEJA3kdOyeN0GDufu+XHlgt4TlOsabP0RwMf84TXc3xRkUuv7ddJkdxXyb1qL3TLfGlQFrjXaIVGUUhnaiUMSbSxdtPnPu2Z++Q==
+    internal_properties : CAAAAAgAAABpdm1Ve9rqY9tKeepJm5McVvkfTAYARjRYd2jIzfyHVXOqUgIQCCBoHLYFk37X17C/tA7BYoDH4WbNcWnN5jZenc9BK/oGy54AviwBhOhe8YWTsA6Dqg5qlIDQ34humvkss2tAAZ9NjMaYlavlkgtpi8TIYqtx6n4eq9+z2uchUnh82Ix724dj4N7Qu8xVVVbFPmuA99ez1quUbR0dQKrDbNBaZw3VKwUg3mubtVDSIlKBtwTBs8mp7BKeRsUPWwU9+reSZcdiXlyNcKIpSx2iZmSzITSi8cwTPPNHNAd3jI/xLzwPeRI0fDCUlOnRz6KE/e6FyUxgsbEHUQub0H9mpXg4L11TGlXvVfXVSnLVSJcKojSwE60yC8HivtdbNVvd0QxJPJE/NuHcsPEA9Kio4l1w67f/DlaBpHuzgPOSnv4zyWbjT570IyegbO4HZJ99S6ld+7eyMmcirsq2b4TVyLhENPtLIWYazWK/JJmLfToijKmdhxNvWZQK03H84qApuHfFCYKz2c/Bfoklp0gj9A9wnAzi5IYyr9npVovcuq8RCd+uyluIFtHLlOAWKS5NWfH0MJfmUdk7M+uZez2IS9Q2T4KH8PaMe/mXnf/dOolCfIjmqSdnAUvQaJjCLjAt8PqRxEwynOa95Qox4AXyRB+qIpvPdlQOYR3U22gUcUysm11zW+FrrLNwvJAvlZ1e1+308aL1Ru9081P+00Om578X9Onh8cpd+z8wBYUFUG1V8xQrG4Il1rspdgiiAMEs6zc5UkKXYrAIk/6csA62RzVAQCsq4ds67wohO/QG/STPR5p1dqrvot10prtxoAK5R5WFKF29HpxVSSaqSs7Rhq2VWkYGzcYs1JM4HxWnFL0g3m0MSrVwO3EYi3z+8K8aMRlJG8kGXDJsGJ1Rp57aUO4fm/wOEbh65UEtQKMjODY9JZczko2qmHTbDyuTbTZr6eB6igoEAxkEMn07ocFAqmDtotcKCQEOda4BWtVO3Q==
     properties :
      x : 47
      y : 26
