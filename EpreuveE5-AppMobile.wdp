@@ -67,18 +67,6 @@ project :
      physical_name : .\FEN_Support.wdw
      type : 2
    -
-     name : FEN_Connexion
-     identifier : 0x4583fb914d2f6b5d
-     internal_properties : CAAAAAgAAAA+JBYKuebO4etvYat+U+DUui1pmS0cqT220QVz+S7mOs4MDW7MefgXzHFrVd0T7+ErKw==
-     physical_name : .\FEN_Connexion.wdw
-     type : 2
-   -
-     name : FEN_Inscription
-     identifier : 0x458408261167924f
-     internal_properties : CAAAAAgAAAC5leElgv+3uADJAaclHjZxDW5YGDyv5/RSOu4SEhODjWthjHbid98pZdrEPMQ8xDScpA==
-     physical_name : .\FEN_Inscription.wdw
-     type : 2
-   -
      name : FI_Connexion
      identifier : 0x4584128639e9197e
      internal_properties : CAAAAAgAAAAR7Uldahcf0JiR49+5NJUk16Qi6sItzlxSmshKPtfHYasVS84ULelxvWJcpGxkHIx0/A==
@@ -93,7 +81,7 @@ project :
    -
      name : FEN_Index_QR
      identifier : 0x45d4ac7b1ddb8fbd
-     internal_properties : CAAAAAgAAAAUcny4B3w0N43WHhkGB5Tc2q0ZiTPijgG8cRh/G+oqxjKYAY5YjS6C8ldBv0e5QbcBAQ==
+     internal_properties : CAAAAAgAAAAhHRkNuufP4OjxLRQR4rEBd8DCwuYU+Nd2oVPz4DVh/80zpGt9oDuRzXJsVNwU7NwkLA==
      physical_name : .\FEN_Index_QR.wdw
      type : 2
   other_elements :
