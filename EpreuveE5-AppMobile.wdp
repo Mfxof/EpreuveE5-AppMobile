@@ -84,6 +84,18 @@ project :
      internal_properties : CAAAAAgAAAAhHRkNuufP4OjxLRQR4rEBd8DCwuYU+Nd2oVPz4DVh/80zpGt9oDuRzXJsVNwU7NwkLA==
      physical_name : .\FEN_Index_QR.wdw
      type : 2
+   -
+     name : FI_Index_Client
+     identifier : 0x45d721b805f517fd
+     internal_properties : CAAAAAgAAABm7E5SUQ4myZPr1+IqTU7y4L0P1+Ohwiyi1vhhZKHzfXt3Sk2nHmpDtGlTrXVrF4lz8w==
+     physical_name : .\FI_Index_Client.wdw
+     type : 8
+   -
+     name : FI_Index_QR
+     identifier : 0x45d721d1067177ef
+     internal_properties : CAAAAAgAAABNyaX5xrP7JDxYBNRkYqFzq8piOhg2qiCCvssehZD6Hj7m74jWaBnwYcYwiAj4gHBY2A==
+     physical_name : .\FI_Index_QR.wdw
+     type : 8
   other_elements :
    -
      physical_name : .\accueil.png
