@@ -200,6 +200,19 @@ window :
     -
       type : 240
       enabled : false
+    -
+      code : |1+
+       SELON ACTB_ActionBar
+       	CAS 1
+       		OuvreFenêtreMobile(FEN_Index_Client)
+       	CAS 2
+       		OuvreFenêtreMobile(FEN_Index_QR)
+       	CAS 3
+       		OuvreFenêtreMobile(FEN_Acceuil)
+       	CAS 4
+       		OuvreFenêtreMobile(FEN_Paramètres)
+       FIN
+      type : 17
  menu :
   name : _Menu
   identifier : 0x29f8144500a4e5ba
@@ -228,7 +241,7 @@ window :
   original_name : _11
 resources :
  string_res :
-  identifier : 0x15684fd702e588a0
+  identifier : 0x15d7063c004eba16
   internal_properties : CAAAAAgAAABq7N3nUPefvTT/bkuWeswN8oyA5V/jh2eKMBS1oWitSQ8/8fBCPswTWxZF88r9pJl5+Q==
 custom_note :
  internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

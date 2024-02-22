@@ -221,6 +221,19 @@ window :
     -
       type : 240
       enabled : false
+    -
+      code : |1-
+       SELON ACTB_ActionBar
+       	CAS 1
+       		OuvreFenêtreMobile(FEN_Index_Client)
+       	CAS 2
+       		OuvreFenêtreMobile(FEN_Index_QR)
+       	CAS 3
+       		OuvreFenêtreMobile(FEN_Acceuil)
+       	CAS 4
+       		OuvreFenêtreMobile(FEN_Paramètres)
+       FIN
+      type : 17
  menu :
   name : _Menu
   identifier : 0x29f8144500a4e5ba
