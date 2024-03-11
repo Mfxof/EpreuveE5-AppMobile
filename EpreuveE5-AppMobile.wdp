@@ -96,6 +96,12 @@ project :
      internal_properties : CAAAAAgAAABNyaX5xrP7JDxYBNRkYqFzq8piOhg2qiCCvssehZD6Hj7m74jWaBnwYcYwiAj4gHBY2A==
      physical_name : .\FI_Index_QR.wdw
      type : 8
+   -
+     name : FI_Compte_Client
+     identifier : 0x45ef0760222ca27c
+     internal_properties : CAAAAAgAAADbt4OHJGFJUh5+1PEKH/SANWAczOassM9KhNF+caT2Mt5idD7zd7lSP+Te2lqWYla+Rg==
+     physical_name : .\FI_Compte_Client.wdw
+     type : 8
   other_elements :
    -
      physical_name : .\accueil.png
