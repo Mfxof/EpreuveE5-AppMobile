@@ -43,12 +43,6 @@ project :
      physical_name : .\FEN_Index_Client.wdw
      type : 2
    -
-     name : FI_Mobile_Compteur_Jauge
-     identifier : 0x457ac0201060651a
-     internal_properties : CAAAAAgAAAC1kZ2BPhsTzIRjcRlAE28CFUIYSIs5nByfHldjw1059wEDNSBNgw3r6V5YoGCQaFigoA==
-     physical_name : .\FI_Mobile_Compteur_Jauge.wdw
-     type : 8
-   -
      name : FEN_A_propos
      identifier : 0x4583ec101366ded0
      internal_properties : CAAAAAgAAACV8f0hnvuz7ORsX7ffBVB8sSC4kC7YnORSOtTQM9JAuADA0gxf/KQUyX54QMAwyDiAgA==
@@ -78,12 +72,6 @@ project :
      internal_properties : CAAAAAgAAABi2FpOfSqCnacsfzaLnfUvxlsV1enciS2KlO8k0jNZr0X5oeErE3P8CD2nEZFPK51n7w==
      physical_name : .\FI_Inscription.wdw
      type : 8
-   -
-     name : FEN_Index_QR
-     identifier : 0x45d4ac7b1ddb8fbd
-     internal_properties : CAAAAAgAAAAhHRkNuufP4OjxLRQR4rEBd8DCwuYU+Nd2oVPz4DVh/80zpGt9oDuRzXJsVNwU7NwkLA==
-     physical_name : .\FEN_Index_QR.wdw
-     type : 2
    -
      name : FI_Index_Client
      identifier : 0x45d721b805f517fd
