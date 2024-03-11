@@ -83,7 +83,7 @@ window :
        	CAS 3
        		OuvreFenêtreMobile(FEN_Acceuil)
        	CAS 4
-       		OuvreFenêtreMobile(FEN_Paramètres)
+       		ChangeFenêtreSource(CFI_Main, FI_Compte_Client)
        FIN
       type : 17
  menu :
