@@ -90,6 +90,12 @@ project :
      internal_properties : CAAAAAgAAADbt4OHJGFJUh5+1PEKH/SANWAczOassM9KhNF+caT2Mt5idD7zd7lSP+Te2lqWYla+Rg==
      physical_name : .\FI_Compte_Client.wdw
      type : 8
+   -
+     name : FI_Rechargement
+     identifier : 0x45ef1e9657714afb
+     internal_properties : CAAAAAgAAAAwDmi0cyiAm6G18j5wnTvCvi+lPY3DSTujB61xGA0HyQvLEMq6nalpBjulE5NNNasVHQ==
+     physical_name : .\FI_Rechargement.wdw
+     type : 8
   other_elements :
    -
      physical_name : .\accueil.png
@@ -99,10 +105,28 @@ project :
      physical_name : .\payer.png
    -
      physical_name : .\recharger.png
+   -
+     physical_name : .\WW_PayBox.wdi
+   -
+     physical_name : .\WW_PayBox.wdk
   analysis : .\EpreuveE5-AppMobile.ana\EpreuveE5-AppMobile.wda
   net_assemblies : []
   uwp_api : []
-  external_components : []
+  external_components :
+   -
+     name : WW_PayBox
+     identifier : 0x45ef263960e11f65
+     internal_properties : CAAAAAgAAACKrLGjS893/5csM+Zr/YzrY6KdQcMqSmUBd8aRUQAmESXccxQsTZaAKwf+lIqI2XMYzj6Id3CfjdRzWjG0S+8YV8GbYcjGDQ==
+     wdi_physical_name : .\WW_PayBox.wdi
+     wdk_physical_name : .\WW_PayBox.wdk
+     original_name : "C:\\PC SOFT\\WINDEV 28\\Exemples\\WB\\Exemples complets\\WW_Precilia_Winter\\WW_PayBox.wdi"
+     configurations :
+      -
+        configuration_id : 17239634102773675624
+        excluded : true
+      -
+        configuration_id : 3929564697302029601
+        excluded : true
   internal_components : []
  data_directory : <RepExeOuRepDonneesCommun>
  languages :
