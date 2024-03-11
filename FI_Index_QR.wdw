@@ -14,7 +14,6 @@ window :
  properties :
   width : 360
   height : 577
-  heightMin : 454
  controls :
   -
     name : FI_Index_QR
@@ -146,18 +145,22 @@ window :
            type : 14
          -
            code : |1+
+            
+            
             PROCÉDURE BTN_GénérerQRCodeClic()
             MonQRCode est un CodeBarres
             MonQRCode.TypeContenu		= cbTypeTexte
             MonQRCode.TypeCodeBarres	= BC_QRCODE
-            MonQRCode.Contenu			= "[5](http://www.pcsoft.fr)"
-            CBA_ChampCB					= MonQRCode
+            MonQRCode.Contenu			= "http://www.pcsoft.fr"
             SI CBA_ChampCB.Visible = Faux ALORS
             	CBA_ChampCB.Visible = Vrai
             SINON
-            	// Erreur lors de la génération du QR code
-            	// Afficher un message d'erreur
+            	// Forcer une mise à jour du contrôle
+            	
             FIN
+            
+            
+            
             
             
             

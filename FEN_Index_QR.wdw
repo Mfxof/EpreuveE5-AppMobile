@@ -142,7 +142,7 @@ window :
          MonQRCode est un CodeBarres
          MonQRCode.TypeContenu		= cbTypeTexte
          MonQRCode.TypeCodeBarres	= BC_QRCODE
-         MonQRCode.Contenu			= "[5](http://www.pcsoft.fr)"
+         MonQRCode.Contenu			= "http://www.pcsoft.fr"
          CBA_ChampCB					= MonQRCode
          SI CBA_ChampCB.Visible = Faux ALORS
          	CBA_ChampCB.Visible = Vrai
