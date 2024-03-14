@@ -14,7 +14,6 @@ window :
  properties :
   width : 360
   height : 577
-  heightMin : 454
  controls :
   -
     name : FI_Index_Client
@@ -116,7 +115,6 @@ window :
             // Description 
             // Bouton à 2 états du type On/Off
             
-            MoiMême..Libellé="OFF"
            type : 14
          -
            code : |1+
@@ -184,10 +182,23 @@ window :
      type_code : 70
      p_codes :
       -
-        code : |1-
-         PROCEDURE MaFenêtre()
-         // Test WilliWlliam
-         // Salut babe
+        code : |1+
+         PROCÉDURE MaFenêtre()
+         // Déclaration des variables
+         #include <Timer.h>
+         MonTimer		est un Timer
+         tempsRestant	est un entier	= 0	// Temps en secondes
+         
+         PROCÉDURE AfficheTemps()
+         // Convertir le temps restant en minutes et secondes
+         TEMPS minutes, secondes
+         minutes					= tempsRestant / 60
+         secondes				= tempsRestant % 60
+         
+         // Afficher le temps dans le champ texte
+         CHAMP_TexteAffichage	= Format(minutes, "00") + " : " + Format(secondes, "00")
+         FIN
+         
  menu :
   name : _Menu
   identifier : 0x29f8144500a4e5ba
