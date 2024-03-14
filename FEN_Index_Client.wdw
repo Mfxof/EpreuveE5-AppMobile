@@ -81,7 +81,7 @@ window :
        	CAS 2
        		ChangeFenêtreSource(CFI_Main ,FI_Index_QR)
        	CAS 3
-       		OuvreFenêtreMobile(FEN_Acceuil)
+       		ChangeFenêtreSource(CFI_Main ,FI_Rechargement)
        	CAS 4
        		ChangeFenêtreSource(CFI_Main, FI_Compte_Client)
        FIN
