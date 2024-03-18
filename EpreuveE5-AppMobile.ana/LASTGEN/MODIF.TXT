@@ -1,2 +1,8 @@
-//MO002-003.TXT ANA00002 TO ANA00003
-MaConnexionAdmin		CNX		
+//MO004-005.TXT ANA00004 TO ANA00005
+Facture		FIC-	Facture	Fichier supprimé Facture
+ModeRèglement		FIC-	ModeRèglement	Fichier supprimé ModeRèglement
+Stock		FIC-	Stock	Fichier supprimé Stock
+Client		FIC-	Client	Fichier supprimé Client
+Utilisateur_Client		DEL	Utilisateur (IDQuestion) et Client (IDQuestion)	Liaison supprimée entre les fichiers Utilisateur (IDQuestion) et Client (IDQuestion)
+ModeRèglement_Facture		DEL	ModeRèglement (IDModeRèglement) et Facture (IDModeRèglement)	Liaison supprimée entre les fichiers ModeRèglement (IDModeRèglement) et Facture (IDModeRèglement)
+Client_Facture		DEL	Client (IDClient) et Facture (IDClient)	Liaison supprimée entre les fichiers Client (IDClient) et Facture (IDClient)

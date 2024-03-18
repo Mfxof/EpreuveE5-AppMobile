@@ -12,16 +12,18 @@ window :
  identifier : 0x25d721b505200b5a
  internal_properties : CAAAAAgAAABZUuIdGYm82XMqv3be4f3csw7fTjL+UnmFsgRKWVcOsuLhzvrHeTZJU0q2XCKlwughIlYqMNM1ETnw1mwNutAAbwG86lCqnuica1Ct1k9ypHdUtQYzvR9Q1/CfUKl/k+TGsl0VanUIUwZF0/q2tExE1SP+XV4I8VqQEGmxBfnUBnjo0XQM+s9lH8Ow2p3oJYlC7tfcDEMhPJrcXUCNy/Cjs9qbfkYDjUtwY6tWumrCNuZc6I8ND1FBuj6i4bTzu1fdbPMZ2yMYzy25bliVao0ns9ROJPxe1izc90IwrFTWX3PObL2GDLxtKOShV6ftR9tFkVy/Hn6EFKLcRzVZxDojzeI663oM/H0+ttEtNbOywE0bU1lh2lOMhb/5AJiq97D9SAlXhu1M9jpAuEi0tAImltiZXB4ERCAOHlamptWpCk8zYEPe+mfMBkmfE/y5/AZU8WLqf8BTi10uz5K7Z9AV8bg3D/iyRcpcuwGz6lBctBxb6SJvurnMG7VnNigiYZNoR8jIJmktS1mg0gf3BgSeWJRdiJk0enjZujgWIgSp6wHaqNfvzjPCiY6/UUo/7PeBAzhrim7WsWsHaw7O6d0XqQwvRQBDzBFCYZkBrbwRJr1e+fbDA5q2QmObgoR/ZkSH+baaPkW7wISjmpwHUr4nCE7W6etZJgtrSq39mIRIFMC9nqUBV3SK/XA7c1yfr1bT6FeYjBwFZ8eW3XqEbcS1W8Aa3Xtlxsp+BtjWiqsB16CixJTrr8MyVnrCaLoujYVImNVlgDo9ZE/z9wy25+3X/+4LL8lolgCCpzG73cKHcgoaJl9wdyc8xdWMoNXTkGsVY2foeTonqAjeddx5OXfqDsezf44nq5pw21VPdV3EEfcj8gTe1Q8YwfXn9VeQOU8YgPn1AyRxkznwMvaMHo0SAf0zGK+WPHbrClMTqPwcEYiEUjeMv7QlsEEqtfpKjFZSsgkiB768jk1uVS3dQdcPQo8usQ2a/66HaF7xkp6Jy5OdnKuPdRskjiu7j3ZTaULRZg38PM6rBaRsdjGV4SbS6/EIZjTWyMi0uehWfounnkqvO89QLDmSsODhyWlGE05paTRng08l7wCBts/jz31mCIkEEeNwZZetEH2mR0ZcrI7pvrvU+8U5bx9RW+kY6dYvg2qQyurY6UTtHZBKAGCyy+OwISCjWjx6SOPH7+GRtlX2v3PjQ0hmIJwi2+o2lNhSfzhws8YISVxxXxzNi8zqbCUG0DjdlsIBMPE3HWrPq2MVGsew8ir2Ic4EoQXG2T4T+s1XcPrVCdsUrxeIlQSprEnFhfGRJIV5iekpRRtGrgyx737WXF34R5LQMZruubPb0MMABKTFNX2xpKBqcV8EFVglSfs1Ps+iht9LPyp7ZXrPY2o9qt1dSvhFoDnfJ4vMPJDKfg==
  properties :
-  width : 360
-  height : 577
+  width : 361
+  height : 576
+  widthMin : 360
+  heightMin : 577
  controls :
   -
     name : FI_Index_Client
     identifier : 0x25d721b5052d0b5a
     internal_properties : CAAAAAgAAAAC0ldvdQaA0rqdY0l2MDnZsig5PXyF8G5gkeNzEuiTOD/UtZnhUHC405c72sihCFYT/GbWOkm7tvKjg/Ar+M+aWFt/4DVzNjjHGK7/7ZClA0mJ6mkMcKv6a8ejqupZbhmfIvUB/3/6dzqsCdcfWFh6g+dtxWaSCvaL+m5LzRyt471AT0GcE30oh1JBadXzOLEkbWgO4ws55eUP3dHiNI3ethF+W6soa2CP40FcuunUCgxfdKSmDqRcMozKpatMtyVKr7LP8HJSLgqJEyECmbRXvKuTxsn/5fVmlCbrPTp2a0knrP53yHT84ZhDvmZoP6R5+er8Jgm71AK1WqTUu9WbdRjU0f+eHtdi3wORKXqJ+DV/AdbPpQhOBQKHUhZSN8nyMJi2xxznP25OeOhPn5bFEUq67IzVG7DE7pHXyxaHHLSv2DmPrj4XWXJd9V78zwLw8DI/5vFTEtHzkUVcnweb8Spvt9cSKmOYJK/g1Nli7wHMXh+YWtzKeJZR37S/WL/1tgY4ehNVsdU+6fdQYNMiuoyRs1N7N2/fibijRwE5Dk/mEvJ355ZUjQ69eCYaPTVNSFvtgMGpb55GeWABdun4qxMsLwRCxOv/h4nsQGdHzxhIORMxm7O7s9RMhYk093mjuJiVFOER8qv3oIGEX7/10Fm6sx3Os8BxkuR9EN87Q3iDh8dUY8NwUSXo7A1609+rprqkmPzrgfLgwiuoFrCb2Hd+1/v0jMoHQyw6NIQdZbUfs0dsMgNA112b3Xk=
     properties :
-     width : 360
-     height : 577
+     width : 361
+     height : 576
     controls :
      -
        name : TABLE_SansNom1
@@ -180,25 +182,7 @@ window :
     type : 32
     code_elements :
      type_code : 70
-     p_codes :
-      -
-        code : |1+
-         PROCÉDURE MaFenêtre()
-         // Déclaration des variables
-         #include <Timer.h>
-         MonTimer		est un Timer
-         tempsRestant	est un entier	= 0	// Temps en secondes
-         
-         PROCÉDURE AfficheTemps()
-         // Convertir le temps restant en minutes et secondes
-         TEMPS minutes, secondes
-         minutes					= tempsRestant / 60
-         secondes				= tempsRestant % 60
-         
-         // Afficher le temps dans le champ texte
-         CHAMP_TexteAffichage	= Format(minutes, "00") + " : " + Format(secondes, "00")
-         FIN
-         
+     p_codes : []
  menu :
   name : _Menu
   identifier : 0x29f8144500a4e5ba
