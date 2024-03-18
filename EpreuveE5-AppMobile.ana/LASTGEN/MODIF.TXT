@@ -1,8 +1,3 @@
-//MO004-005.TXT ANA00004 TO ANA00005
-Facture		FIC-	Facture	Fichier supprimé Facture
-ModeRèglement		FIC-	ModeRèglement	Fichier supprimé ModeRèglement
-Stock		FIC-	Stock	Fichier supprimé Stock
-Client		FIC-	Client	Fichier supprimé Client
-Utilisateur_Client		DEL	Utilisateur (IDQuestion) et Client (IDQuestion)	Liaison supprimée entre les fichiers Utilisateur (IDQuestion) et Client (IDQuestion)
-ModeRèglement_Facture		DEL	ModeRèglement (IDModeRèglement) et Facture (IDModeRèglement)	Liaison supprimée entre les fichiers ModeRèglement (IDModeRèglement) et Facture (IDModeRèglement)
-Client_Facture		DEL	Client (IDClient) et Facture (IDClient)	Liaison supprimée entre les fichiers Client (IDClient) et Facture (IDClient)
+//MO009-010.TXT ANA00009 TO ANA00010
+Compte_client		NFI		nouveau fichier
+Contrainte_User_Compte_client		NWL	User (IDUser) et Compte_client (IDUser)	Nouvelle liaison entre les fichiers User (IDUser) et Compte_client (IDUser)

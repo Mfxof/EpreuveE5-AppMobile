@@ -1,2 +1,4 @@
-//MO005-006.TXT ANA00005 TO ANA00006
-Utilisateur		FIC-	Utilisateur	Fichier supprimé Utilisateur
+//MO010-011.TXT ANA00010 TO ANA00011
+Connexion		NFI		nouveau fichier
+Contrainte_User_Compte_client		MCL	1,1->0,n	
+Contrainte_User_Connexion		NWL	User (IDUser) et Connexion (IDUser)	Nouvelle liaison entre les fichiers User (IDUser) et Connexion (IDUser)
