@@ -1,3 +1,4 @@
-//MO009-010.TXT ANA00009 TO ANA00010
-Compte_client		NFI		nouveau fichier
-Contrainte_User_Compte_client		NWL	User (IDUser) et Compte_client (IDUser)	Nouvelle liaison entre les fichiers User (IDUser) et Compte_client (IDUser)
+//MO010-011.TXT ANA00010 TO ANA00011
+Connexion		NFI		nouveau fichier
+Contrainte_User_Compte_client		MCL	1,1->0,n	
+Contrainte_User_Connexion		NWL	User (IDUser) et Connexion (IDUser)	Nouvelle liaison entre les fichiers User (IDUser) et Connexion (IDUser)
