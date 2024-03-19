@@ -145,9 +145,7 @@ window :
             
            type : 14
          -
-           code : |1+
-            FinTimerSys(NumTimer)
-            
+           code : |1-
             
            type : 18
          -
@@ -187,19 +185,12 @@ window :
      type_code : 70
      p_codes :
       -
-        code : |1+
-         // Procédure permettant l'affichage régulier de l'heure dans SAI_HEURE1
-         PROCÉDURE Affiche_Heure()
-         SAI_HEURE1 = HeureSys()
-          
-         // Traitement à l'ouverture de la fenêtre
-         // Affiche_Heure sera automatiquement appelée chaque seconde
-         NumTimer est un entier
-         NumTimer = TimerSys("Affiche_Heure", 100, 1)
-         SI NumTimer = 0 ALORS
-         	Erreur("Création du timer impossible")
-         FIN
+        code : |1-
          
+      -
+        code : |1-
+         
+        type : 17
  menu :
   name : _Menu
   identifier : 0x29f8144500a4e5ba
