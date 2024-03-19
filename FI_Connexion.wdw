@@ -81,12 +81,18 @@ window :
         type_code : 4
         p_codes :
          -
-           code : |1-
-            NomClient est une chaîne
-            // La seconde rubrique du fichier de données "Client"
-            // correspond au nom du client
-            NomClient = HRécupèreRubrique(User, 3)
-            NomClient = HRécupèreRubrique(User,5)
+           code : |1+
+            HLitRecherchePremier(User, Mail, SAI_Email)
+            SI PAS HTrouve(User) ALORS
+            	ToastAffiche("L'utilisateur existe pas", toastCourt, cvMilieu)
+            	RepriseSaisie(SAI_EMail)
+            FIN
+            SI User.Password1<>SAI_Mot_de_passe ALORS
+            	ToastAffiche("Le mot de passe est incorrect",toastCourt,cvMilieu)
+            	RepriseSaisie(SAI_Mot_de_passe)
+            FIN
+            OuvreFenêtreMobile(FEN_Index_Client)
+            
            type : 18
          -
            type : 161

@@ -40,7 +40,6 @@ window :
           type : 2
           content :
            internal_properties : CAAAAAgAAAApjG0QpF2LmQkZFaiVZyWy0hQ7rz37MK+dHNGji+FXPJgAcDSmTLzloWxUPAWz2fAwhG+7nib/7hdJELOkkNnQws1ERnCpdz6f52ZCtoxVlqSzRGdAAFi8/z3Sab/xsPwVU7oWfom6Uj7VzNL2A1h7eWp9+IhYWrKfw0qB0w+UNQ/FDDayqB67p7w0VbAuO6ca5UGytuNv3RE1ISsk312bonVCbgV3dGOHl611zIXuuXdxTVza58Y6thB7uXkrEoeviOOuzazPT7VoZlT8R7jngf8vmwDRQYYlg/x4mY9odo58EdBZ9cFnpkpK5kh9QiGF+MNIVjXdD+7sIiGMiSxuiwKuXNuxgn2WKzYCcqcQS2NcEJSADJ3tCcDA+0lhzYEqzJWUcyL8L7o/9ZuHsxUzdz0CAYiMNCNXceZj0qJR9N84DXs2GA5hP9pgY2jON0VXn1nn93gkcyW7fRbJRhJIkoombYyiAsWThIcqY36eWeMFTX8AOQtPNcJ88SbEAOvigUTwb6scY5WV24/8iozn108d8/eYab2vZZNA/laJrikVVGnSOXUj2JJHd7tmbwHR5cVcnSq0okk9ISrzu22tO5RCVRsKyo+sR4WTFsWtBcl093PTAHcQbgt/Lwx/skpY4xJWF+3ChIwoJt04V0kS00O9gLDifZW7WmqdtCvf0G0MAFL/iO3BQDcSyESbZGsymPwrV1vs0U5ACahaO6DU77gfyNHSZIw8W/EKFJr2X7RwfLZR/aGkzJ4rEhHj7Z+h8OXK4HP0qvIqjES+UeeUfc6VvRse4P+UsU8VsoET9tEqJoqHpN/yHhjSqlwTgQUx6kqL6Cdi6EqDtn1pJttBgZayViIYTFHD4PPnD9K0B2X8EITtT7+COjLG0kr2uQ+NFezXaSXr2oEXk88vqG8vRyyCk/YTozeuS1VvxPE5lS5xTy4zTGQg3zVeE5L8WyJYxgo=
-           properties : {}
            type : 2
           code_elements :
            internal_properties : CAAAAAgAAAAm9vtNDH28Ise3SipAQYrwmX8LkEAk0A5lOUkEsu5Tk/UI8LnjzdHzMqRIEPKIb+5ZkY+fw5glR2yhr3v9J5g2yS5+/Vhr9UN1C61lDmPg61GZQVTkWE01c7uergdIsBS2eMNiaxg/rJFt4OP4xxbm5hx1jTv//yUlwTzI5T/FPxtqn2GAGp0=
@@ -210,6 +209,9 @@ window :
       type_code : 125
       p_codes :
        -
+         type : 18
+         enabled : false
+       -
          type : 229
          enabled : false
        -
@@ -219,25 +221,18 @@ window :
          type : 240
          enabled : false
        -
-         code : |1+
-          SELON ACTB_ActionBar
-          	CAS 1
-          		OuvreFenêtreMobile(FEN_Index_Client)
-          	CAS 2
-          		OuvreFenêtreMobile(FEN_Index_QR)
-          	CAS 3
-          		OuvreFenêtreMobile(FEN_Acceuil)
-          	CAS 4
-          		OuvreFenêtreMobile(FEN_Paramètres)
-          FIN
          type : 17
+         enabled : false
       orphans :
        -
          name : RADTITRE
          identifier : 0x25d721ce063b6d12
          code_elements :
           type_code : 2
-          p_codes : []
+          p_codes :
+           -
+             type : 14
+             enabled : false
  code_parameters :
   internal_properties : CAAAAAgAAACsHxIksMirCdd4ep3rc6rPtmXx1Skxgv1RmD9+4SLxzlhccJuP332qX8KhzwlnQJjopNcB2raN0kgPTI92sZgel0SUysc68kDIZ5mUH5nT
   original_name : _11

@@ -65,6 +65,10 @@ window :
    type_code : 125
    p_codes :
     -
+      code : |1-
+       
+      type : 18
+    -
       type : 229
       enabled : false
     -
