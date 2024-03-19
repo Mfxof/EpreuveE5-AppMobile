@@ -1,7 +1,19 @@
-//MO011-012.TXT ANA00011 TO ANA00012
-ModeRèglement		NFI		nouveau fichier
-Timer		NFI		nouveau fichier
-Contrainte_Compte_client_ModeRèglement		NWL	Compte_client (IDCompte_client) et ModeRèglement (IDCompte_client)	Nouvelle liaison entre les fichiers Compte_client (IDCompte_client) et ModeRèglement (IDCompte_client)
-Contrainte_Compte_client_Timer		NWL	Compte_client (IDCompte_client) et Timer (IDCompte_client)	Nouvelle liaison entre les fichiers Compte_client (IDCompte_client) et Timer (IDCompte_client)
-ModeRèglement		FRN		
-ModeRèglement	IDModeRèglement	RRN		
+//MO012-013.TXT ANA00012 TO ANA00013
+Facture		NFI		nouveau fichier
+Timer		TAR	40	nouvelle taille enregistrement : 40
+Timer	IDRèglement	RUB+		IDRèglement est une nouvelle clé
+Règlement		NFI		nouveau fichier
+Contrainte_ModeRèglement_Règlement		NWL	ModeRèglement (IDModeRèglement) et Règlement (IDModeRèglement)	Nouvelle liaison entre les fichiers ModeRèglement (IDModeRèglement) et Règlement (IDModeRèglement)
+Facture_Règlement		NWL	Facture (IDFacture) et Règlement (IDFacture)	Nouvelle liaison entre les fichiers Facture (IDFacture) et Règlement (IDFacture)
+Contrainte_Règlement_Facture		NWL	Règlement (IDRèglement) et Facture (IDClient)	Nouvelle liaison entre les fichiers Règlement (IDRèglement) et Facture (IDClient)
+Contrainte_Règlement_Timer		NWL	Règlement (IDRèglement) et Timer (IDRèglement)	Nouvelle liaison entre les fichiers Règlement (IDRèglement) et Timer (IDRèglement)
+Règlement		FRN		
+Facture		FRN		
+Règlement	IDRèglement	RRN		
+Règlement	Date	RRN		
+Règlement	SaisiLe	RRN		
+Facture	IDFacture	RRN		
+Facture	DateFacture	RRN		
+Facture	IDCommande	RRN		
+Facture	Acquittée	RRN		
+Facture	SaisiLe	RRN		
