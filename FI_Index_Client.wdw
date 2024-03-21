@@ -169,7 +169,7 @@ window :
             // Version 1
             // Description 
             // Champ de saisie pour un texte simple sur une ligne
-            
+            SAI_Heure1 = HeureSys
            type : 14
          -
            type : 276
@@ -187,6 +187,10 @@ window :
       -
         code : |1-
          
+      -
+        code : |1-
+         
+        type : 43
       -
         code : |1-
          

@@ -134,6 +134,7 @@ project :
       // Déclaration de UserID comme une variable globale
       GLOBAL
       	 UserID est un entier sur 8 octets
+      
      type : 196608
    -
      code : |1-
