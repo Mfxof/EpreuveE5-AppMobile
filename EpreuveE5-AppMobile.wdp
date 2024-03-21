@@ -129,6 +129,17 @@ project :
   type_code : 0
   p_codes :
    -
+     code : |1+
+      
+      // Déclaration de UserID comme une variable globale
+      GLOBAL
+      	 UserID est un entier sur 8 octets
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196625
+   -
      type : 196627
      enabled : false
   orphans :

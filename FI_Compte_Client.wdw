@@ -54,7 +54,7 @@ window :
             // Version 1
             // Description 
             // Champ de saisie pour un texte simple sur une ligne
-            
+            SAI_Nom = User.Nom
            type : 14
          -
            type : 276
@@ -66,7 +66,7 @@ window :
            type : 278
            enabled : false
      -
-       name : SAI_Penom
+       name : SAI_Prenom
        identifier : 0x25ef0d4a1325bd28
        internal_properties : CAAAAAgAAADTXSvhlN/l03SAsIxKKjjJzJiliGAwwSOmTyjKuw+Ql1vGWaqNfCe4qScKdrq0uHKUBZ6fyzB1WgJ5mBp5cJN4SYxl/gRt1AnptylBkE0p4Jr3ooNKLSCDu2uEyLPHE7r0dXA32aZQOBqeUe7CPkfdf3LUO5fXapejODt2kAyYiHyUTsBdhak7Eid375Zz1tHo+GsGRZ6fmXZt96jQfXq29FWq1XZA9ME/IZCnK6ZF377/Q9SGIly9m9E4fmKKwSWx1rUnfNY2Qz0qHLwAqSl4qUTBSXv97vRDFfTgxbZq4FBZMXt9yErwshyWBGFfk/3T/uVIYGGq1UCC0HSYu6SOpvDBnE+Li5YQP0jCPXPdpvmHxMmotcZg2ZaHnCkST1s3Rs5F4PuldUhMgCKuIbuCoeP6JgXUok2xssqUIlqeDrJAH6WmLFneS93sLBec1lL4uRwkGASUQxxGOtNIbis40uDlG6d2G+i9Ee8qVeXHtjITA8E2DNXyS54uOw7fH96w45hmdTRPjUYJ7WeKnn3PHZbS4YqmSF2oX/Q6EmhGvM1MFM3c/huHyuTAl9rwSJFEY/no1ODWr1BE4KJ1zBMZiCkC0wgL+hiMq5k3UFZ+NucCUn6YU32TfvB0CfQeUl0Xr1uBrPhmxXnWZ6lqFwKYUMcT6aXsO4tzD8U3FOMT38UiofVHFnLwVr4UpZHs8rrL6t6HMFfMy161kXfjCdHQP2dhch9olUA5HRibhOec2CKgNSSXuqUumGmeRa50ieKC4bYJHhgkv3xlV51E+N/G+LZWsO9ZWbD5DrFw44c8TKtPo1lYA17H4a80vm6VqWeRRVwHKL6Xt9HxuXcdJm8xJvQt2dKMkWnB33RbrSHOD4ppRXY8Ir+97ybE2X3Yt02xmcAvGYlNWrANFxyEwxVM7W/G01fm8OAKWYjbLBYXX/eLvhy//I2YKBYZM2Oj+HEvY7TfUUdOUNUn1nnhtrWfHORTGHWxXPoVrh+XwTD8rRhh2JN6SnbRI1vVCGU32mudQ7xDTgYK1vBJtbm7kyG4eplzFxqYwL9xYKwtyVdpm1y3t/NnHDVh2B52WyagwULTUDTnv1CZ12/Q042wQw34HtCmvd5DSaA/DyaXDm0WgxK5s+pwtnx5Glktp/ANvjB/DPGHBBqfUgwSODwAEIevqBKgpe1/23kN/JlTfHFDiKjoxYW0eSyRo9KxxZJQZouZ9qQCmsEPGKAme7aLL6Gc/1AqHwB5GFMosg2k0ot2O5T3r2U84MnHF1tSyXNp9EK8xIoW+Gre8i7qWu1GpB3Pn3HE7hiPepeT9nIQwLMxdrRmPfBIG2CBM1OHfMr3N84YLJAAetqCWNvAr6bOkd6oilVJ70z1P8imOaE3vCdNZ45bMihQFk4/3IMs355cdDyauIiPS5v1xN8b9hLe8TcaUwAYdMiemAiH7NrIOzbscJk4LtZ3lgptyEoOF7zZ1J1IuZGsXMcLjYUh5ADyTnsHli9ztB0gWtm0FqhuR6eb3YK1duGjORrDfNN4zX31GHO4HybjNhKnt0slTn64RYgUIRdpgucuu1tMlZhJNmuYRKbKJOalBY1voMzRNjH+P7EP6ygGMi0rjQrTeYw20u2w6E0aitENWVEcPTF4sftlQPaaG+EeEFhRgNJalXEu5ZBq2mfTyqwZlT8aPMCw1u3QMCSQpYpnAJj5T5ExZ+FEZKXUsiHo0IKCJhZIgJHIKyDgzLm9dTabYukfTFaG4uzrUgviLaV3uH2fSFsMoh4xzAQgCYCcvA4nQMsDKapGkQusgt+VxK6fsMsdPvNwwJiw5F9psXEmzELM9qPjlpJI4AOkJCnIopcwKhgvmFVjuBgfnqEZwNR2wDPCQT8GxVFM6v5DGy2AEUKowSx2V9RHLhNBgqC35Eh0wNpmqakWZ4LGQg==
        properties :
@@ -83,7 +83,7 @@ window :
             // Version 1
             // Description 
             // Champ de saisie pour un texte simple sur une ligne
-            
+            SAI_Prenom = User.Prenom
            type : 14
          -
            type : 276
@@ -112,7 +112,7 @@ window :
             // Version 1
             // Description 
             // Champ de saisie pour un texte simple sur une ligne
-            
+            SAI_Adresse = User.Mail
            type : 14
          -
            type : 276
@@ -142,6 +142,10 @@ window :
             // Description 
             // Bouton simple
            type : 14
+         -
+           code : |1+
+            OuvreFenêtreMobile(FEN_Acceuil)
+           type : 18
          -
            type : 161
            enabled : false
@@ -191,13 +195,22 @@ window :
         type : 43
       -
         code : |1+
-         HLit(User, SAI_Nom, SAI_Nom)
-         SI HTrouve() = Vrai ALORS
-         	FichierVersEcran()
+         // Assurez-vous que l'ID de l'utilisateur connecté est disponible
+         ID_Utilisateur est un entier sur 8 octets = UserId
+         
+         // Lecture de l'enregistrement de l'utilisateur connecté
+         HLitRecherchePremier(User, IDUser, ID_Utilisateur)
+         
+         // Vérification de la présence de l'enregistrement
+         SI HEnDehors(User) ALORS
+         	// Transfert des informations de l'utilisateur vers les champs de saisie
+         	SAI_Nom		= User.Nom
+         	SAI_Prenom	= User.Prenom
+         	SAI_Adresse	= User.Mail
+         SINON
+         	// Gestion de l'erreur si l'enregistrement n'est pas trouvé
+         	Erreur("L'utilisateur avec l'ID " + ID_Utilisateur + " n'a pas été trouvé.")
          FIN
-         // Lecture de l'enregistrement et transfert des rubriques vers les champs
-         HLitPremier(User, Nom)
-         FichierVersEcran()
         type : 42
  menu :
   name : _Menu
