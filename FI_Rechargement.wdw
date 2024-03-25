@@ -131,6 +131,11 @@ window :
             
            type : 14
          -
+           code : |1-
+            ChoixClient = SAI_Temps
+            Info("Ajout de " + SAI_Temps + "secondes réussi")
+           type : 18
+         -
            type : 161
            enabled : false
      -
@@ -163,39 +168,42 @@ window :
            type : 278
            enabled : false
      -
-       name : SEL_Temps
-       identifier : 0x26018ae7066b7bd8
-       internal_properties : CAAAAAgAAAB1ol7eqE8FdjE2us4tqXRtamdrezz3cYssHmuZjB7/F7bi915C5dz9gl9v6LJhDSfVsG5FDkdlq/u6yXAlnhgW/Vq4BtJS+0muX70iePn+r/6VBNXm+bbFgkUxO3X3MZ0o90gme/ejFi1eyzQBFMqx9M3GcBmKlT4s/YYqazyeDiLOTRAoNQVmfbMjoF/+KiFi8uKjBuoqvUBWAY5Dst8syyuYdD9sf0VVZGjGLKnnLb70m+XUTMEf9S/ZofmFFYcKjEbt/mwqCmHvZy5fhu0YBGKbI7Yylhqw0a3SKrI7p6ewxxCHACM16vVMajwoEFSQEruD3OHJ2rtRMOJ8yOJWKqaLU2C2D5OGBr8fMRE5AleOmBu4DHtWv90+vEvedOa5AmJ4UFpmY9xgwbMphg/b4MO7bZu42Ouiz7ZzeBqx4HDHqqe/aJQ8R6/qZ0mGHymWIM/LXtSAtOfLUe9FsXyAQqAKwUXRe8iXc/4g84VAV+KzG5gMRayVpaXP6FJ4ZXd5pGAEy+oqoyOnGBSDRDUuCYCvhbGRLXyoqLhIaShewAfQzhqVBpqLQ84wgMH/ItRKfG9YKfWlpZoJ+oRnh41A552HRve9qPHznb7VlrXWriBKDZ00vAONMgLCpIWl6IOdB8ovPacJB+tmeBiMjay5xlhTmY1i1+krQDfO8lo1R+6WQtG6+zKvYaOKcdlvWiq9LknWUT/c7A3bBrf0rGTrH8ZxNj3nNGAo4GgI8Gi/lyfPhyIIqP+N3ZTpYV7aFLIrr7HkfRqM2A0VjI/Z1eWRuyODsPspp5nhUV/Zk7nXy6HMX1irXYKYIFnS82qY1abyBjKtgtWzCm3Q/Ak7lBPiRymIPSDPIG+tRxawq24FBKKC2R4hVLOaOgnkd7auJSOrH0QHEugb2qjOhVBF5OxzrIj5izeU17uHBNOCM3BPGtV6YdAKei/R8ptvMcRwXup8K72qIB5wxqCrfWdXZlJCzs4cTrudr3f1tVImdM+Jq/bV4u3gtLp0RoJSna5cKEpK6u/uoUSso8tEewBcEE0QGQxCU/euEp7HPezubeOdE1yl9xmXxM4OjRhKgHLE/o+/J8aUhAyp2UimNym9cOlF5+kBz/MCv2XbcFwUNo1R/9qzwDxwDHlfAqYjk6i1vU32yFeJCvlfe8WFFS12zZIAAcWR3JgOFKzCFzH7dfHNViDKkFJgBui5ymduz/p57AX8AkbqpU2MD52xQTpe8ai7sMurlsaPWOA/qgnbaaNZ20WX4r/kQTBg6gCW4Uzw/96AVrxqgy4s7kQxhdiCZVRhShIA3Vo0fZT4nRzJtMEoFiorkUiYYb28zbuFjWte8Hbb6HrAmY65hLH7IwA1sXN4sgL1wzJIVxBkk8JcbGTjPWc3S8MNRmsd4kkkmg2t8FV/zX+oQnWkJ62gVLfSj81rFxRigdRVVMcpMNutGisWD0y6I6QqwoGd5hFkQ3rH7uyXB98b1Nsq6mK3KpwPJBkWwQ/iU9pZUFTuMd/luuHyPPagowrN564UnJ5Ue8zCRyEu0zdInXDldSb8ozMJ+QIPEtQltTJ5VlvMgDak/p9mhI27CBZ4Wjhym9LIABSrXBsWeOjgRyIeL9U=
+       name : SAI_Temps
+       identifier : 0x26019dc90bb33e89
+       internal_properties : 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
        properties :
-        x : 78
-        y : 275
-        width : 200
-        height : 175
-       options :
-        -
-          internal_properties : CAAAAAgAAABuu+glZXfdNYtI0egvlUtf335Zw/wDxTLIb9REJ7CgLhQnlw74fdu6RGH4ZZ6T46NAv0mJRfvDBeiFHPfc8lt0NI/jf8qWaivMIxEDwJIpAvIjgxTWUrzV99ogSnBDNPVqyhbYqjS6+3nWIKJ7hK8C8SPoq6E1yRFtp26aauy5+0sNkbPlL7vOGiv5DxFEFFPWnw3/GDsdvNS6ifD/T6JcC1EwI/RjmiTNEQ3t27pf4A==
-        -
-          internal_properties : CAAAAAgAAACQd51I88DPE21xxBPVGkHvzZladnYsfi2Uwlqlts64UfG6vPk0bvToEuz/n5qNQGZIC3Sv6e84ALnDxXTJmseYVyvNHxtXb2ccxMT6THyiHn/Bf/16kZnIY+V854hcPyvKAa7pD7l0U+PRLDORLXq+D05eSlRo10MHbDQxDmnAzovALYheib4LfbHgxxYggjrb33jtGs/229UgGtYq2wg5fIOjNr9qYgaPKJU4V1MxiYg=
-        -
-          internal_properties : CAAAAAgAAACtN3tsZo336bz9K4dvP4klsS/athDX2inA3QmEvmlBmH73JY806b+su70uoFrEiiVZh9yj/WX9guT+h4QsipOfcEeRQnjb0QpE1+df/lRQ0VvVif3l5jMziRaS5X1SyuIRF4FXIt8FGlgGdrUja2SlFUw4DhcPfoglfDkvVTrW6a+URxWHmgsLx7HCc3KR1HkJVmphVLrZ+YQey3LgAGl9j+As+EZ6J4XvjD37sqHZ
-        -
-          internal_properties : CAAAAAgAAADrvUF854EPTovtT4n8ZixSSfXY+Pz7TDVpE+glWQMdvSHPflN16k8AM24Zp1dJ0uKr/w4GkSnNuhu51ow7dIo9nmRd5zym9l3kFfTqWKp11dJl841/DdHzXVrSPL8vWgwXKFBlO1rposQMiLwlrEibnzGb9pKLKD+OLxcrd2NkGFtIC1+0qR3ofNHnZwnbSKO/2VUp+RyjN4oD+5ShZHx6LkRmRC5IWhNFw7IUcA==
-       type : 6
-       controls : []
+        x : 50
+        y : 350
+        width : 256
+        height : 44
+       type : 2
        code_elements :
-        type_code : 6
-        p_codes : []
+        type_code : 3
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // Saisie d'un nombre entier
+            
+           type : 14
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
     type : 32
     code_elements :
      type_code : 70
      p_codes :
       -
-        code : |1-
+        code : |1+
          PROCEDURE MaFenêtre()
          
-         
-         
-         MonSelecteur = SEL_Temps
  menu :
   name : _Menu
   identifier : 0x25ef1e8c32b323bc

@@ -189,7 +189,7 @@ window :
             // Ajoute l'enregistrement à la table
             HAjoute("TempsClient", MonEnregistrement)
             
-            SAI_Temps_Restant = TempsClient.TempsRestant
+            
            type : 18
          -
            type : 161
@@ -287,8 +287,10 @@ window :
      p_codes :
       -
         code : |1+
+         PROCÉDURE MaFenêtre()
+         
          // Dans le code de la fenêtre où vous voulez afficher la valeur
-         SAI_Temps_Restant = MonSelecteur
+         SAI_Temps_Restant = ChoixClient
          
       -
         code : |1-
@@ -297,7 +299,7 @@ window :
       -
         code : |1+
          
-         
+         SAI_Temps_Restant = TempsClient.TempsRestant
          
         type : 42
       -
@@ -375,26 +377,6 @@ window :
       procédure DecompteTemps()
       SAI_Heure = HeureSys()
       SAI_Sec = SAI_Sec + 1
-     type : 458752
-   -
-     name : WIN_MaFenetre
-     procedure_id : 1585706220653908444
-     type_code : 14
-     code : |1+
-      // Résumé : <indiquez ici ce que fait la procédure>
-      // Syntaxe :
-      //WIN_MaFenetre (<OuvreFenêtreMobile>)
-      //
-      // Paramètres :
-      // 	OuvreFenêtreMobile : <indiquez ici le rôle de OuvreFenêtreMobile>
-      // Valeur de retour :
-      // 	Aucune
-      //
-      // Exemple :
-      // <Indiquez ici un exemple d'utilisation>
-      //
-      procédure WIN_MaFenetre(OuvreFenêtreMobile)
-      	SAI_Temps_Restant = DernierTempsRestant
      type : 458752
   procedure_templates : []
   property_templates : []
