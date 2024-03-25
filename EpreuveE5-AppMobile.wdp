@@ -9,7 +9,7 @@ info :
  subtype : 0
 project :
  identifier : 0x0
- internal_properties : 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
+ internal_properties : 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
  configurations :
   -
     name : Application Android
@@ -25,7 +25,7 @@ project :
    -
      name : FEN_Acceuil
      identifier : 0x4571a2c80d2c0cf0
-     internal_properties : CAAAAAgAAABt71u3AL1IBI7eepjW9qvZmiaOkCwnRH1h9fp2E6uuNVrHIZDcNkylaSPT7NczjHfo
+     internal_properties : CAAAAAgAAAAkIgwol8xkB93DPkiqvMXrRNFTe7CXsMZ2xb9yATXn4S/zOcNkqd/PgqcR77cp0ccxMQ==
      physical_name : .\FEN_Acceuil.wdw
      type : 2
    -
@@ -37,31 +37,31 @@ project :
    -
      name : FEN_A_propos
      identifier : 0x4583ec101366ded0
-     internal_properties : CAAAAAgAAACV8f0hnvuz7ORsX7ffBVB8sSC4kC7YnORSOtTQM9JAuADA0gxf/KQUyX54QMAwyDiAgA==
+     internal_properties : CAAAAAgAAABZNQEFop+XmKAoK+PrIUxwnYyUvIs6OyeippTtkHYknGSsxhhD0HBgBTqkHOQc5NQ8xA==
      physical_name : .\FEN_A_propos.wdw
      type : 2
    -
      name : FEN_Paramètres
      identifier : 0x4583f8513d40b9ca
-     internal_properties : CAAAAAgAAADWvD5iQT52ecO3lu+QZhLx3Kkb8zH91olTC3+jqm2vSbcbk5aV6Im/pJkD/YV7B/nDQw==
+     internal_properties : CAAAAAgAAAAAfnikA3gwa3E5xLny+LSfzrNNXVIxanCOn/k4r0dV88EtvfwzCrdtFgv1w0O9RbsFDQ==
      physical_name : .\FEN_Paramètres.wdw
      type : 2
    -
      name : FEN_Support
      identifier : 0x4583f7f74d1ed89d
-     internal_properties : CAAAAAgAAAB82lRAfySMn1VdV0dc4EfSZHcDa12HLaCK3AbsZYAU5BjWh9FMOc4B+i+pF59RKZ9p6Q==
+     internal_properties : CAAAAAgAAACPi+c7CLX9Ljr+iOQBhSJFS+SW1utqF8+21ZmgQfWZb4W7/Gyn5nGiW8A6hg7CvjKamg==
      physical_name : .\FEN_Support.wdw
      type : 2
    -
      name : FI_Connexion
      identifier : 0x4584128639e9197e
-     internal_properties : CAAAAAgAAAAR7Uldahcf0JiR49+5NJUk16Qi6sItzlxSmshKPtfHYasVS84ULelxvWJcpGxkHIx0/A==
+     internal_properties : CAAAAAgAAAB60KLmxYKqtb90lmJsB54h2K8X/059YrSycuJXpGKyTrYYRsMh2J6k4EW/Ofn3g3Vf5w==
      physical_name : .\FI_Connexion.wdw
      type : 8
    -
      name : FI_Inscription
      identifier : 0x458413663e0d829a
-     internal_properties : CAAAAAgAAABi2FpOfSqCnacsfzaLnfUvxlsV1enciS2KlO8k0jNZr0X5oeErE3P8CD2nEZFPK51n7w==
+     internal_properties : CAAAAAgAAAAdeXUplsNrdMyF+L8M7gS+eXQA4NtSWxNKxJaj0kROolaKMlC6jOp1sZYA+Lgo0MAICA==
      physical_name : .\FI_Inscription.wdw
      type : 8
    -
@@ -73,13 +73,13 @@ project :
    -
      name : FI_Index_QR
      identifier : 0x45d721d1067177ef
-     internal_properties : CAAAAAgAAABNyaX5xrP7JDxYBNRkYqFzq8piOhg2qiCCvssehZD6Hj7m74jWaBnwYcYwiAj4gHBY2A==
+     internal_properties : CAAAAAgAAACgnpiEIxgQy5Ht1YW109AS4oOpccKJSry2ee9CTdkz1XefENeFuWhBtmtVo2OdZVulrQ==
      physical_name : .\FI_Index_QR.wdw
      type : 8
    -
      name : FI_Compte_Client
      identifier : 0x45ef0760222ca27c
-     internal_properties : CAAAAAgAAADbt4OHJGFJUh5+1PEKH/SANWAczOassM9KhNF+caT2Mt5idD7zd7lSP+Te2lqWYla+Rg==
+     internal_properties : CAAAAAgAAAChnZmNOmdPYGhMpifYDeJ6g9aSOo2cTf1SivQFHAoIwEzQ6kjlRYukTfLs1FyUbFykrA==
      physical_name : .\FI_Compte_Client.wdw
      type : 8
    -
@@ -87,6 +87,12 @@ project :
      identifier : 0x45ef1e9657714afb
      internal_properties : CAAAAAgAAAAwDmi0cyiAm6G18j5wnTvCvi+lPY3DSTujB61xGA0HyQvLEMq6nalpBjulE5NNNasVHQ==
      physical_name : .\FI_Rechargement.wdw
+     type : 8
+   -
+     name : FI_Mobile_Compteur_Jauge
+     identifier : 0x45fc3f3f1ecd432c
+     internal_properties : CAAAAAgAAAC+pJaKOWZOYWuYz2vviVzvXCmbc7iPOB5WfYfqGe0vyTebjTaqdFs4TPHr1V2Tb2Grqw==
+     physical_name : .\FI_Mobile_Compteur_Jauge.wdw
      type : 8
   other_elements :
    -
@@ -134,6 +140,10 @@ project :
       // Déclaration de UserID comme une variable globale
       GLOBAL
       	 UserID est un entier sur 8 octets
+      
+      
+      Global 
+      	MonSelecteur est un entier
       
      type : 196608
    -

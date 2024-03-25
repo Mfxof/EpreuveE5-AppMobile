@@ -1,7 +1,1 @@
-//MO011-012.TXT ANA00011 TO ANA00012
-ModeRèglement		NFI		nouveau fichier
-Timer		NFI		nouveau fichier
-Contrainte_Compte_client_ModeRèglement		NWL	Compte_client (IDCompte_client) et ModeRèglement (IDCompte_client)	Nouvelle liaison entre les fichiers Compte_client (IDCompte_client) et ModeRèglement (IDCompte_client)
-Contrainte_Compte_client_Timer		NWL	Compte_client (IDCompte_client) et Timer (IDCompte_client)	Nouvelle liaison entre les fichiers Compte_client (IDCompte_client) et Timer (IDCompte_client)
-ModeRèglement		FRN		
-ModeRèglement	IDModeRèglement	RRN		
+//MO016-017.TXT ANA00016 TO ANA00017
