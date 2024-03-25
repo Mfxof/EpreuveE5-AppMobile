@@ -135,7 +135,7 @@ project :
   type_code : 0
   p_codes :
    -
-     code : |1+
+     code : |1-
       
       // Déclaration de UserID comme une variable globale
       GLOBAL
@@ -145,6 +145,8 @@ project :
       Global 
       	MonSelecteur est un entier
       
+      Global 
+      	DernierTempsRestant est un entier
      type : 196608
    -
      code : |1-
